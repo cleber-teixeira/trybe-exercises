@@ -1,6 +1,6 @@
 # Trybe - Turma 09 - Exercícios
 
-* Exercícios relacionados ao Curso de Desenvolvimento Web Full Stack da Trybe
+* Exercícios relacionados ao Curso de Desenvolvimento Web Full Stack da Trybe.
 
 ## TRYBE
 

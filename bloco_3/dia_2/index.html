@@ -17,10 +17,12 @@
           background-color: rgb(150,150,150);
           font-style: italic;
           line-height: 40px;
+          width: 600px;
         }
 
         .corDeFundo {
           background-color:lightsteelblue;
+          width: 600px;
         }
 
         p {
@@ -36,15 +38,25 @@
           text-decoration: line-through;
         }
 
+        #lin_1 {
+          background-color: yellow;
+        }
+        #lin_2 {
+          background-color: red;
+        }
+        #lin_3 {
+          background-color: brown;
+        }
+
     </style>
   </head>
   <body>
     <h1>Exercícios 3.2</h1>
     <p class="corDeFundo">Qual é a sua cor favorita?</p>
     <ul class="corDeFundo">
-      <li>Amarelo</li>
-      <li class="corte">Vermelho</li>
-      <li class="corte">Marrom</li>
+      <li id="lin_1">Amarelo</li>
+      <li id="lin_2" class="corte">Vermelho</li>
+      <li id="lin_3" class="corte">Marrom</li>
     </ul>
   </body>
 </html>

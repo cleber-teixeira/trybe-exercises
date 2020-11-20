@@ -5,27 +5,35 @@
     <title>HTML</title>
     <style>
         h1 {
-            font-size: 65px;
-            color: orange;
-            font-family: sans-serif;
+          font-size: 65px;
+          color: orange;
+          font-family: sans-serif;
+          font-style: italic;
+          text-align: center;
+          text-decoration: underline;
         }
 
         li {
-            background-color: rgb(150,150,150);
+          background-color: rgb(150,150,150);
+          font-style: italic;
+          line-height: 40px;
         }
 
-
         .corDeFundo {
-            background-color:lightsteelblue;
+          background-color:lightsteelblue;
         }
 
         p {
-            font-weight: 600;
-            font-size: 48px;
+          font-weight: 600;
+          font-size: 48px;
         }
 
         body {
           font-size: 16px;
+        }
+
+        .corte {
+          text-decoration: line-through;
         }
 
     </style>
@@ -35,8 +43,8 @@
     <p class="corDeFundo">Qual é a sua cor favorita?</p>
     <ul class="corDeFundo">
       <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li class="corte">Vermelho</li>
+      <li class="corte">Marrom</li>
     </ul>
   </body>
 </html>

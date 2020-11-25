@@ -8,13 +8,13 @@
 
 ## Módulos do Curso:
 
-* Introdução ao desenvolvimento web
-* Desenvolvimento Front-end
-* Desenvolvimento Back-end
-* Introdução à Ciências da Computação
-* Módulos presentes durante toda formação
-- [v] Desenvolvimento de software na vida real
-- [v] Metodologias ágeis
-- [v] Soft Skills
+* I- Introdução ao desenvolvimento web
+* II- Desenvolvimento Front-end
+* III- Desenvolvimento Back-end
+* IV- Introdução à Ciências da Computação
+* V- Módulos presentes durante toda formação
+** Desenvolvimento de software na vida real
+** Metodologias ágeis
+** Soft Skills
 
 

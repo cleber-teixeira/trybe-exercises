@@ -8,7 +8,7 @@
 
 ## Módulos do Curso:
 
-- [x] 1- Introdução ao desenvolvimento web
+:hourglass_flowing_sand: 1- Introdução ao desenvolvimento web
 - [ ] 2- Desenvolvimento Front-end
 - [ ] 3- Desenvolvimento Back-end
 - [ ] 4- Introdução à Ciências da Computação

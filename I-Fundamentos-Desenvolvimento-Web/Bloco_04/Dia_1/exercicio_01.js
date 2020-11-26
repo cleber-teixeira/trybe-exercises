@@ -1,26 +1,25 @@
+/*
+01- Faça cinco programas, um para cada operação aritmética básica.
+Seu programa deve ter duas variáveis, a e b , definidas no começo
+com os valores que serão operados. Faça programas para:
+Adição | Subtração | Multiplicação | Divisão | Módulo
+*/
+
 //Definir variáveis
 let a = 10;
 let b = 5;
 
 //-Adição
-let soma = a+b;
+console.log('A soma de "' + a + '+' + b + '" é igual a: ' + (a + b));
 
 //-Subtração
-let sub = a-b;
+console.log('A subtração de "' + a + '-' + b + '" é igual a: ' + (a - b));
 
 //-Multiplicação
-let mult = a*b;
+console.log('A multiplicação de "' + a + '*' + b + '" é igual a: ' + (a * b));
 
 //-Divisão
-let div = a/b;
+console.log('A divisão de "' + a + '/' + b + '" é igual a: ' + (a / b));
 
 //-Módulo
-let mod = a%b;
-
-//-Resultados
-console.log('Sendo "a=' + a + '" e "b=' + b + '" os resultados calculados são:');
-console.log('A soma de "a+b" é igual a: ' + soma);
-console.log('A subtração de "a-b" é igual a: ' + sub);
-console.log('A multiplicação de "a*b" é igual a: ' + mult);
-console.log('A divisão de "a/b" é igual a: ' + div);
-console.log('O resto da divisão entre "a" e "b" é igual a: ' + mod);
+console.log('A resto da divisão entre "' + a + '" e "' + b + '" é igual a: ' + (a % b));

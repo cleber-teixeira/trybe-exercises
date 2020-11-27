@@ -1,1 +1,0 @@
-### Exercício teste de javascript

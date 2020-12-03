@@ -34,4 +34,15 @@ function changeSquareColor2() {
 changeSquareColor2();
 /*
 4. Crie uma função que corrija o texto da tag <h1>.
-*/
+*/function correctsTagText() {
+    let text = document.getElementsByTagName('h1')[0];
+    const correctText = 'Exercício 5.1 - JavaScript';
+    let result = '';
+    if (text === correctText){
+        result = text;
+    } else {
+        result = text.innerText = correctText;
+    }
+    return result;
+}
+correctsTagText();

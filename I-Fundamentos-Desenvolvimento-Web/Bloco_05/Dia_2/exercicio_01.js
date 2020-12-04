@@ -17,3 +17,8 @@ divMainContent.appendChild(divCenterContent);
 let tagP = document.createElement('p');
 tagP.innerText = 'O DOM (Document Object Model) é uma interface que representa como os HTML e XML são lidos pelo browser. Após a leitura do documento HTML pelo browser, o DOM cria um objeto que faz uma representação do documento e define meios de como essa estrutura pode ser acessada, dessa forma podemos utilizar o JavaScript para manipular o DOM e assim alterar o estilo e o conteúdo de nossa página.';
 divCenterContent.appendChild(tagP);
+
+// 5. Adicione a tag div com a classe left-content como filho da tag div criada no passo 2;
+let divLeftContent = document.createElement('div');
+divLeftContent.className = 'left-content';
+divMainContent.appendChild(divLeftContent);

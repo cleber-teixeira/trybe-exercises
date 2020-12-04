@@ -44,3 +44,9 @@ for (let index = 0; index < numbers.length; index += 1) {
     unorderedList.appendChild(liContent);
 }
 divRightContent.appendChild(unorderedList);
+
+// 9. Adicione 3 tags h3, todas sendo filhas do div criado no passo 2.
+for (index= 1; index <= 3; index += 1) {
+    let tagH3 = document.createElement ('h3');
+    divMainContent.appendChild(tagH3);
+}

@@ -12,3 +12,8 @@ document.body.appendChild(divMainContent);
 let divCenterContent = document.createElement('div');
 divCenterContent.className = 'center-content';
 divMainContent.appendChild(divCenterContent);
+
+// 4. Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
+let tagP = document.createElement('p');
+tagP.innerText = 'O DOM (Document Object Model) é uma interface que representa como os HTML e XML são lidos pelo browser. Após a leitura do documento HTML pelo browser, o DOM cria um objeto que faz uma representação do documento e define meios de como essa estrutura pode ser acessada, dessa forma podemos utilizar o JavaScript para manipular o DOM e assim alterar o estilo e o conteúdo de nossa página.';
+divCenterContent.appendChild(tagP);

@@ -1,6 +1,6 @@
 # Bloco 3 - Introdução à HTML e CSS
 
-> Exercício - Dia 01
+> **Exercício - Dia 01**
 
 - [x] 1. Crie uma lista das pessoas que você já fez amizade na Trybe.
 - [x] 2. Adicione uma imagem que venha de uma URL externa.

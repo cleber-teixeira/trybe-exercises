@@ -9,7 +9,7 @@
 - [x] 5. Crie um link entre a sua lista e os parágrafos de pessoas
 - [x] 6. Crie um link para a página do Google
 
-> Portfólio
+> **Portfólio**
 
 **Requisitos:**
 

@@ -11,7 +11,7 @@
 
 > Portfólio
 
-### Requisitos:
+**Requisitos:**
 
 *Seu Portfólio Web deve ter as seguintes informações:*
 

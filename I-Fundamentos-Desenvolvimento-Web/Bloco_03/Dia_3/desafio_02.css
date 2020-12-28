@@ -1,0 +1,25 @@
+#planet {
+  position: absolut;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+#greeting {
+  background: rgb(255, 255, 0);
+  border: 2px solid black;
+  font-family: "Comic Sans MS", fantasy;
+  padding: 5px;
+  width: 262px;
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  z-index: 3;
+}
+
+#creature {
+  position: absolute;
+  top: 60px;
+  left: 110px;
+  z-index: 2;
+}

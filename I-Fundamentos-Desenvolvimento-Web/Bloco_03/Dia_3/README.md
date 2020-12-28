@@ -22,3 +22,6 @@ Neste terceiro dia de jornada através do HTML & CSS do bloco 03, eu aprendi na 
 
 **03. Desafio: Nuvens flutuantes**
 - [x] Essa página web contém informações em nuvens mais uma foto de nuvens. Na primeira etapa, faça a foto flutuar à esquerda do texto, de forma que o texto fique em torno dela.
+
+**04. Desafio: Descendentes de Khan**
+- [x] Essa página web descreve o Genghis Khan, um imperador que tinha muitos descendentes, e inclui uma tabela com apenas alguns dos imperadores que descendem dele. Adicione uma regra que atinge somente os elementos que têm a classe 'emperor' (imperador) e que estão na tabela. A regra deve alterar a cor de fundo das células da tabela.

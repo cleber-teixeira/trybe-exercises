@@ -19,3 +19,6 @@ Neste terceiro dia de jornada através do HTML & CSS do bloco 03, eu aprendi na 
 
 **02. Desafio: Posicionamento do planeta**
 - [x] Essa página web contém uma imagem de um planeta, uma imagem de uma criatura, e uma div com uma saudação. Seu trabalho é fazer com que a criatura pareça estar sentada no planeta e dizendo a saudação. Nessa primeira etapa, use posicionamento absoluto para colocar a criatura em algum lugar em cima do planeta.
+
+**03. Desafio: Nuvens flutuantes**
+- [x] Essa página web contém informações em nuvens mais uma foto de nuvens. Na primeira etapa, faça a foto flutuar à esquerda do texto, de forma que o texto fique em torno dela.

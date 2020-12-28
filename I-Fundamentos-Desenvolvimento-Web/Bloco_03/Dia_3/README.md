@@ -31,7 +31,7 @@ Neste terceiro dia de jornada através do HTML & CSS do bloco 03, eu aprendi na 
 **Seu Portfólio Web deve ter ter um _layout_ usando _Box Model_ com as informações a seguir:**
 
 - [x] 01. Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos;
-- [ ] 02. A descrição deve ficar ao lado da foto;
+- [x] 02. A descrição deve ficar ao lado da foto;
 - [ ] 03. Centralize seu nome na página;
 - [ ] 04. Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página;
 - [ ] 05. Adicione margin e padding nos elementos que julgue necessário

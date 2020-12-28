@@ -34,5 +34,5 @@ Neste terceiro dia de jornada através do HTML & CSS do bloco 03, eu aprendi na 
 - [x] 02. A descrição deve ficar ao lado da foto;
 - [x] 03. Centralize seu nome na página;
 - [x] 04. Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página;
-- [ ] 05. Adicione margin e padding nos elementos que julgue necessário
-- [ ] 06. Coloque estilo somente nos ítens ímpares da lista das suas habilidades.
+- [x] 05. Adicione margin e padding nos elementos que julgue necessário
+- [x] 06. Coloque estilo somente nos ítens ímpares da lista das suas habilidades.

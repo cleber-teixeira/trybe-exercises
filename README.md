@@ -1,32 +1,12 @@
-# Trybe - Turma 09 - Exercícios
-
-* Exercícios relacionados ao Curso de Desenvolvimento Web Full Stack da Trybe.
-
-## TRYBE
-
-* A Trybe é uma escola inovadora que forma seus alunos com as principais linguagens de programação e tecnologias utilizadas pelo mercado, priorizando também o desenvolvimento de soft skills junto aos estudantes garantindo assim um profissional melhor preparado.
-
-## Módulos do Curso:
-
-:hourglass_flowing_sand: 1- Introdução ao desenvolvimento web
-- [ ] 2- Desenvolvimento Front-end
-- [ ] 3- Desenvolvimento Back-end
-- [ ] 4- Introdução à Ciências da Computação
-- [ ] 5- Módulos presentes durante toda formação
-* Desenvolvimento de software na vida real
-* Metodologias ágeis
-* Soft Skills
-
-
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Cleber Lopes Teixeira](https://www.linkedin.com/in/cleberlopesteixeira/)_ enquanto aluno da [Trybe](https://www.betrybe.com/). :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Cleber Lopes Teixeira](https://www.linkedin.com/in/cleberlopesteixeira/)_ enquanto aluno da [Trybe](https://www.betrybe.com/), curso de **Desenvolvimento Web - Full Stack - Turma 09**. :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos doDesenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
 ##### Bloco 1: Introdução - Unix & Shell
 

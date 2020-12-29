@@ -1,6 +1,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/vscode
 # Edit at https://www.toptal.com/developers/gitignore?templates=vscode
 
+.vscode/
+
 ### vscode ###
 .vscode/*
 !.vscode/settings.json
@@ -11,4 +13,3 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/vscode
 
-.vscode/

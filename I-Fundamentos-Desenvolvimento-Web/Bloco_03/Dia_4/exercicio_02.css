@@ -1,0 +1,10 @@
+body {
+  color: gray;
+  font-family: sans-serif;
+}
+
+strong {
+  background-color: gray;
+  color: white;
+  display: block;
+}

@@ -1,6 +1,6 @@
-# Bloco 03: Introdução à HTML & CSS
+# Bloco 03: Introdução à HTML & CSS :white_check_mark:
 
-## Dia 04: HTML Semântico
+## Dia 04: HTML Semântico :white_check_mark:
 
 ### O que aprendi neste dia? :books:
 Chegou a hora de entrar mais fundo na Matrix. :sunglasses:

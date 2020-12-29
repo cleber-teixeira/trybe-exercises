@@ -1,0 +1,11 @@
+body {
+  color: gray;
+  font-family: sans-serif;
+}
+
+li {
+  background-color: gray;
+  color: white;
+  display: inline;
+  padding: 2px 5px;
+}

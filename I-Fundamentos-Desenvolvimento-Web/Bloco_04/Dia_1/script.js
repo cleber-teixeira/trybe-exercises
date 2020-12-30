@@ -58,3 +58,20 @@ function ex03() {
     document.getElementById('resultado3').innerHTML = `Neste caso, não há maior valou, ou não foi identificado algum valor`;
   }
 }
+
+/* 
+04- Faça um programa que, dado um valor definido numa variável,
+retorne "positive" se esse valor for positivo, "negative" se 
+for negativo e "zero" caso contrário.
+*/
+
+function ex04() {
+  const num = parseInt(document.getElementById('a4').value);
+  if (num > 0) {
+    document.getElementById('resultado4').innerHTML = 'positive';
+  } else if (num < 0) {
+    document.getElementById('resultado4').innerHTML = 'negative';
+  } else {
+    document.getElementById('resultado4').innerHTML = 'zero';
+  }
+}

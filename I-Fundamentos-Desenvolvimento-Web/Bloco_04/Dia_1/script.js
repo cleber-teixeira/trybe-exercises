@@ -101,3 +101,44 @@ function ex05() {
     document.getElementById('resultado5').innerHTML = 'Valor inválido! Digite três valores menores que 180.';
   }
 }
+
+/* 06- Escreva um programa que receba o nome de uma peça de 
+    xadrez e retorne os movimentos que ela faz.
+    * Como desafio, faça o programa funcionar tanto se
+    receber o nome de uma peça com letras maiúsculas
+    quanto com letras minúsculas, sem aumentar a
+    quantidade de condicionais.
+    * Como dica, você pode pesquisar uma função que faz
+    uma string ficar com todas as letras minúsculas
+    (lower case) .
+    * Se a peça passada for inválida, o programa deve
+    retornar uma mensagem de erro.
+    
+    *Exemplo: bishop -> diagonals */
+
+   function ex06() {
+    const pecaDeXadrez = document.getElementById('a6').value;
+    switch (pecaDeXadrez.toLowerCase()) {
+        case 'rei' || 'rei':
+          document.getElementById('resultado6').innerHTML = 'O rei movimenta uma casa em qualquer direção.';
+            break;
+        case 'rainha':
+          document.getElementById('resultado6').innerHTML = 'A rainha movimenta na diagonal e na horizontal.';
+            break;
+        case 'peão':
+          document.getElementById('resultado6').innerHTML = 'O peão avança uma ou duas casas a primeira vez depois apenas uma.';
+            break;
+        case 'bispo':
+          document.getElementById('resultado6').innerHTML = 'O bispo movimenta na diagonal.';
+            break;
+        case 'cavalo':
+          document.getElementById('resultado6').innerHTML = 'O cavalo pode se movimentar em L saltando sobre outras peças.';
+            break;
+        case 'torre':
+          document.getElementById('resultado6').innerHTML = 'A torre movimenta na horizontal ou vertical.';
+            break;
+        default:
+          document.getElementById('resultado6').innerHTML = 'Erro, peça inválida!';
+            break;
+    };
+  }

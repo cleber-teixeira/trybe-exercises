@@ -73,28 +73,31 @@ p {
   margin-top: 0;
 }
 
-.resultados-1 {
+.resultados {
+  display: inline-block;
   float: right;
   margin-right: 300px;
+  height: 100%;
+  vertical-align: bottom;
 }
 
 span {
   font-weight: bold;
 }
 
-.v1 {
+.v-input {
   display: block;
   margin: 5px auto 10px;
   width: 80px;
 }
 
-.valores-1 {
+.valores {
   float: left;
   margin-left: 50px;
   text-align: center;
 }
 
-.valores-1 p {
+.valores p {
   margin-left: 50px;
   text-align: left;
 }

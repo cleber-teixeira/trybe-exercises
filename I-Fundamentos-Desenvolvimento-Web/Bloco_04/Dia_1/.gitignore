@@ -2,6 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=vscode
 
 .vscode/
+.Bloco_02/
+.Bloco_03/
 
 ### vscode ###
 .vscode/*

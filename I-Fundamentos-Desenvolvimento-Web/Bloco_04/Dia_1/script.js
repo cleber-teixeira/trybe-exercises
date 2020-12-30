@@ -182,7 +182,7 @@ function ex07() {
 }
 
 /*
-  08- Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
+  08- Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for 'par'. Caso contrário, ele retorna false.
 
     * Bônus: use somente um if.
 */
@@ -192,10 +192,29 @@ function ex08() {
   for (let index = 0; index < 3; index += 1) {
     console.log(num[index]);
     if (num[index]%2 === 0) {
-      document.getElementById('resultado8').innerHTML = '<p><span>&rarr; true &larr;</span></p><p><em>Existe um número par!</em></p>';
+      document.getElementById('resultado8').innerHTML = '<p><span>&rarr; true &larr;</span></p><p><em>Existe um número <span>par</span> !</em></p>';
       index = 3;
     } else {
-      document.getElementById('resultado8').innerHTML = '<p><span>&rarr; false &larr;</span></p><p><em>Não existe nenhum número par!</em></p>';
+      document.getElementById('resultado8').innerHTML = '<p><span>&rarr; false &larr;</span></p><p><em>Não existe nenhum número <span>par</span> !</em></p>';
+    }
+  }
+}
+
+/*
+  09- Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for 'ímpar'. Caso contrário, ele retorna false.
+
+    * Bônus: use somente um if.
+*/
+
+function ex09() {
+  const num = [parseInt(document.getElementById('a9').value), parseInt(document.getElementById('b9').value), parseInt(document.getElementById('c9').value)];
+  for (let index = 0; index < 3; index += 1) {
+    console.log(num[index]);
+    if (num[index]%2 !== 0) {
+      document.getElementById('resultado9').innerHTML = '<p><span>&rarr; true &larr;</span></p><p><em>Existe um número <span>ímpar</span> !</em></p>';
+      index = 3;
+    } else {
+      document.getElementById('resultado9').innerHTML = '<p><span>&rarr; false &larr;</span></p><p><em>Não existe nenhum número <span>ímpar</span> !</em></p>';
     }
   }
 }

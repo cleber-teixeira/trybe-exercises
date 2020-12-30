@@ -49,6 +49,10 @@ h3 {
   margin-bottom: 10px;
 }
 
+.i6 {
+  text-align: center;
+}
+
 .menu {
   border: solid 1px;
   border-radius: 15px;
@@ -87,6 +91,10 @@ p {
 
 span {
   font-weight: bold;
+}
+
+.ul6 li {
+  line-height: 25px;
 }
 
 .v-input {

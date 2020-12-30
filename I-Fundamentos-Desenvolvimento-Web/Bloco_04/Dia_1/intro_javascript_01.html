@@ -222,7 +222,43 @@
           <p id="resultado9"></p>
         </div>
       </fieldset>
-      <fieldset id="ex-10" class="ex"><legend><h3>Exercício 10</h3></legend></fieldset>
+      <fieldset id="ex-10" class="ex"><legend><h3>Exercício 10</h3></legend>
+        <p>
+          Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o <span>valor de custo</span> de um produto e seu <span>valor de venda</span>. A partir dos valores, calcule quanto de <span>lucro</span> (<em>valor de venda descontado o custo do produto</em>) a empresa terá ao vender <span>mil</span> desses produtos.
+        </p>
+        <ul>
+          <li>
+            Atente que, sobre o custo do produto, incide um imposto de <span>20%</span>.
+          </li>
+          <li>
+            Seu programa também deve emitir uma <em>mensagem de <span>erro</span></em> e encerrar caso algum dos seus valores de entrada seja <em>menor que <span>zero</span></em>.
+          </li>
+          <li>
+            O lucro de um produto é o resultado da <em>subtração</em> do valor de venda pelo custo do mesmo, sendo que o imposto de 20% <em>também faz parte do valor de custo</em>.
+          </li>
+          <ul>
+            <li>
+              <span>valorCustoTotal</span> = valorCusto + impostoSobreOCusto
+            </li>
+            <li>
+              <span>lucro</span> = valorVenda - valorCustoTotal (<em>lucro de um produto</em>)
+            </li>
+          </ul>
+        </ul>
+        <ul><li><span>Bônus:</span> use somente um <em><span>if</span></em>.</li></ul>
+        <div class="valores">
+          <div>
+            Valor de custo <input type="number" id="a10" class="v-input" placeholder="digite aqui">
+          </div>
+          <div>
+            Valor de venda <input type="number" id="b10" class="v-input" placeholder="digite aqui">
+          </div>
+          <button type="button" onclick="ex10()" class="btn">Verificar</button>
+        </div>
+        <div class="resultados">
+          <p id="resultado10"></p>
+        </div>
+      </fieldset>
       <fieldset id="ex-11" class="ex"><legend><h3>Exercício 11</h3></legend></fieldset>
     </div>
   </main>

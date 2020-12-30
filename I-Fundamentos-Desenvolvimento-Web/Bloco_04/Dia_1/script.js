@@ -1,8 +1,8 @@
 /*
-01- Faça cinco programas, um para cada operação aritmética básica.
-Seu programa deve ter duas variáveis, a e b , definidas no começo
-com os valores que serão operados. Faça programas para:
-Adição | Subtração | Multiplicação | Divisão | Módulo
+  01- Faça cinco programas, um para cada operação aritmética básica.
+  Seu programa deve ter duas variáveis, a e b , definidas no começo
+  com os valores que serão operados. Faça programas para:
+  Adição | Subtração | Multiplicação | Divisão | Módulo
 */
 
 function ex01() {
@@ -21,9 +21,9 @@ function ex01() {
 }
 
 /*
-02- Faça um programa que retorne o maior de dois números.
-Defina no começo do programa duas variáveis com os 
-valores que serão comparados.
+  02- Faça um programa que retorne o maior de dois números.
+  Defina no começo do programa duas variáveis com os 
+  valores que serão comparados.
 */
 
 function ex02() {
@@ -39,9 +39,9 @@ function ex02() {
 }
 
 /*
-03- Faça um programa que retorne o maior de três números.
-Defina no começo do programa três variáveis com os 
-valores que serão comparados.
+  03- Faça um programa que retorne o maior de três números.
+  Defina no começo do programa três variáveis com os 
+  valores que serão comparados.
 */
 
 function ex03() {
@@ -60,9 +60,9 @@ function ex03() {
 }
 
 /* 
-04- Faça um programa que, dado um valor definido numa variável,
-retorne "positive" se esse valor for positivo, "negative" se 
-for negativo e "zero" caso contrário.
+  04- Faça um programa que, dado um valor definido numa variável,
+  retorne "positive" se esse valor for positivo, "negative" se 
+  for negativo e "zero" caso contrário.
 */
 
 function ex04() {
@@ -71,16 +71,19 @@ function ex04() {
     document.getElementById('resultado4').innerHTML = 'positive';
   } else if (num < 0) {
     document.getElementById('resultado4').innerHTML = 'negative';
-  } else {
+  } else if (num === 0) {
     document.getElementById('resultado4').innerHTML = 'zero';
+  } else {
+    document.getElementById('resultado4').innerHTML = '<span>ERRO!</span> Nenhum valor encontrado.';
   }
 }
 
 /*
-05- Faça um programa que defina três variáveis com os valores
-dos três ângulos internos de um triângulo. Retorne true se os
-ângulos representarem os ângulos de um triângulo e false caso
-contrário.
+  05- Faça um programa que defina três variáveis com os valores
+  dos três ângulos internos de um triângulo. Retorne true se os
+  ângulos representarem os ângulos de um triângulo e false caso
+  contrário.
+
     - Para os ângulos serem de um triângulo válido, a soma dos
     três deve ser 180 graus. Caso os ângulos estejam inválidos,
     o programa deve retornar uma mensagem de erro.
@@ -102,43 +105,97 @@ function ex05() {
   }
 }
 
-/* 06- Escreva um programa que receba o nome de uma peça de 
-    xadrez e retorne os movimentos que ela faz.
+/*
+  06- Escreva um programa que receba o nome de uma peça 
+  de xadrez e retorne os movimentos que ela faz.
+
     * Como desafio, faça o programa funcionar tanto se
     receber o nome de uma peça com letras maiúsculas
     quanto com letras minúsculas, sem aumentar a
     quantidade de condicionais.
+
     * Como dica, você pode pesquisar uma função que faz
     uma string ficar com todas as letras minúsculas
     (lower case) .
+
     * Se a peça passada for inválida, o programa deve
     retornar uma mensagem de erro.
     
-    *Exemplo: bishop -> diagonals */
+    *Exemplo: bishop -> diagonals
+*/
 
-   function ex06() {
-    const pecaDeXadrez = document.getElementById('a6').value;
-    switch (pecaDeXadrez.toLowerCase()) {
-        case 'rei' || 'rei':
-          document.getElementById('resultado6').innerHTML = 'O rei movimenta uma casa em qualquer direção.';
-            break;
-        case 'rainha':
-          document.getElementById('resultado6').innerHTML = 'A rainha movimenta na diagonal e na horizontal.';
-            break;
-        case 'peão':
-          document.getElementById('resultado6').innerHTML = 'O peão avança uma ou duas casas a primeira vez depois apenas uma.';
-            break;
-        case 'bispo':
-          document.getElementById('resultado6').innerHTML = 'O bispo movimenta na diagonal.';
-            break;
-        case 'cavalo':
-          document.getElementById('resultado6').innerHTML = 'O cavalo pode se movimentar em L saltando sobre outras peças.';
-            break;
-        case 'torre':
-          document.getElementById('resultado6').innerHTML = 'A torre movimenta na horizontal ou vertical.';
-            break;
-        default:
-          document.getElementById('resultado6').innerHTML = 'Erro, peça inválida!';
-            break;
-    };
+function ex06() {
+const pecaDeXadrez = document.getElementById('a6').value;
+switch (pecaDeXadrez.toLowerCase()) {
+    case 'rei' || 'rei':
+      document.getElementById('resultado6').innerHTML = 'O rei movimenta uma casa em qualquer direção.';
+        break;
+    case 'rainha':
+      document.getElementById('resultado6').innerHTML = 'A rainha movimenta na diagonal e na horizontal.';
+        break;
+    case 'peão':
+      document.getElementById('resultado6').innerHTML = 'O peão avança uma ou duas casas a primeira vez depois apenas uma.';
+        break;
+    case 'bispo':
+      document.getElementById('resultado6').innerHTML = 'O bispo movimenta na diagonal.';
+        break;
+    case 'cavalo':
+      document.getElementById('resultado6').innerHTML = 'O cavalo pode se movimentar em L saltando sobre outras peças.';
+        break;
+    case 'torre':
+      document.getElementById('resultado6').innerHTML = 'A torre movimenta na horizontal ou vertical.';
+        break;
+    default:
+      document.getElementById('resultado6').innerHTML = 'Erro, peça inválida!';
+        break;
+};
+}
+
+/* 
+  07- Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
+    * Porcentagem >= 90 → A
+    * Porcentagem >= 80 → B
+    * Porcentagem >= 70 → C
+    * Porcentagem >= 60 → D
+    * Porcentagem >= 50 → E
+    * Porcentagem < 50 → F
+    * O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
+*/
+
+function ex07() {
+  const nota = parseInt(document.getElementById('a7').value);
+  if (nota < 0 || nota > 100) {
+    document.getElementById('resultado7').innerHTML = '<span>ERRO!</span> Nota inválida!';
+  } else if (nota >= 90) {
+    document.getElementById('resultado7').innerHTML = 'Nota: <span>A</span>';
+  } else if (nota >= 80) {
+    document.getElementById('resultado7').innerHTML = 'Nota: <span>B</span>';
+  } else if (nota >= 70) {
+    document.getElementById('resultado7').innerHTML = 'Nota: <span>C</span>';
+  } else if (nota >= 60) {
+    document.getElementById('resultado7').innerHTML = 'Nota: <span>D</span>';
+  } else if (nota >= 50) {
+    document.getElementById('resultado7').innerHTML = 'Nota: <span>E</span>';
+  } else {
+    document.getElementById('resultado7').innerHTML = 'Nota: <span>F</span>';
   }
+}
+
+/*
+  08- Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
+
+    * Bônus: use somente um if.
+*/
+
+function ex08() {
+  const num = [parseInt(document.getElementById('a8').value), parseInt(document.getElementById('b8').value), parseInt(document.getElementById('c8').value)];
+  for (let index = 0; index < 3; index += 1) {
+    console.log(num[index]);
+    if (num[index]%2 === 0) {
+      document.getElementById('resultado8').innerHTML = '<p><span>&rarr; true &larr;</span></p><p><em>Existe um número par!</em></p>';
+      index = 3;
+    } else {
+      document.getElementById('resultado8').innerHTML = '<p><span>&rarr; false &larr;</span></p><p><em>Não existe nenhum número par!</em></p>';
+    }
+  }
+}

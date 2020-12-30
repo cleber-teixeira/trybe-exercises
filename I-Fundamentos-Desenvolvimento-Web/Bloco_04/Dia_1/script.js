@@ -75,3 +75,29 @@ function ex04() {
     document.getElementById('resultado4').innerHTML = 'zero';
   }
 }
+
+/*
+05- Faça um programa que defina três variáveis com os valores
+dos três ângulos internos de um triângulo. Retorne true se os
+ângulos representarem os ângulos de um triângulo e false caso
+contrário.
+    - Para os ângulos serem de um triângulo válido, a soma dos
+    três deve ser 180 graus. Caso os ângulos estejam inválidos,
+    o programa deve retornar uma mensagem de erro.
+*/
+
+function ex05() {
+  const num1 = parseInt(document.getElementById('a5').value);
+  const num2 = parseInt(document.getElementById('b5').value);
+  const num3 = parseInt(document.getElementById('c5').value);
+  //Verifica a soma dos ângulos se é igual a 180º
+  if (num1 < 180 && num2 < 180 && num3 < 180) {
+      if (num1 + num2 + num3 === 180) {
+        document.getElementById('resultado5').innerHTML = '&rarr; true &larr; <br> Parabéns! Você encontrou o Triângulo!';
+      } else {
+        document.getElementById('resultado5').innerHTML = '&rarr; false &larr; <br> Para ser um Triângulo a soma dos ângulos deve ser 180.';
+      }
+  } else {
+    document.getElementById('resultado5').innerHTML = 'Valor inválido! Digite três valores menores que 180.';
+  }
+}

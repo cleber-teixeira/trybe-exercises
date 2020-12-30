@@ -218,3 +218,30 @@ function ex09() {
     }
   }
 }
+
+/*
+  10- Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o valor de custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+
+    * Atente que, sobre o custo do produto, incide um imposto de 20%.
+    * Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
+    * O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
+
+      - valorCustoTotal = valorCusto + impostoSobreOCusto
+      - lucro = valorVenda - valorCustoTotal (lucro de um produto)
+
+    * Bônus: use somente um if.
+*/
+
+function ex10() {
+  const custo = document.getElementById('a10').value;
+  const venda = document.getElementById('b10').value;
+  if (custo < 0 || custo === '' || venda < 0 || venda === '') {
+    document.getElementById('resultado10').innerHTML = '<span>ERRO!</span> Valor inválido.';  
+  } else {
+    const imposto = parseFloat(custo) * 0.2;
+    const valorCustoTotal = parseFloat(custo) + imposto;
+    const lucro = parseFloat(venda) - valorCustoTotal;
+    const lucroTotal = parseFloat(lucro * 1000).toFixed(2);
+    document.getElementById('resultado10').innerHTML = `Ao vender mil desses produtos a empresa terá um lucro de <em><span>R$ ${lucroTotal}</span></em>`;
+  }
+}

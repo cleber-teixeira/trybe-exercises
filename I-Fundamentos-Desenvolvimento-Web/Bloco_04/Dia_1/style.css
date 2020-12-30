@@ -75,10 +75,10 @@ p {
 
 .resultados {
   display: inline-block;
-  float: right;
-  margin-right: 300px;
+  margin: 10px 25px;
+  text-align: center;
   height: 100%;
-  vertical-align: bottom;
+  width: 70%;
 }
 
 span {
@@ -86,7 +86,7 @@ span {
 }
 
 .v-input {
-  display: block;
+  display: inline-block;
   margin: 5px auto 10px;
   width: 80px;
 }
@@ -95,9 +95,10 @@ span {
   float: left;
   margin-left: 50px;
   text-align: center;
+  width: 200px;
 }
 
-.valores p {
+.valores .p1 {
   margin-left: 50px;
   text-align: left;
 }

@@ -61,7 +61,7 @@ Nos exercícios de hoje, você vai fazer quinze pequenos programas. Todos trabal
 
 - Exemplo: **_bishop_** -> **_diagonals_**
 
-- [ ] 7. Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
+- [x] 7. Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
 
 - Porcentagem >= 90 -> A
 - Porcentagem >= 80 -> B
@@ -72,15 +72,15 @@ Nos exercícios de hoje, você vai fazer quinze pequenos programas. Todos trabal
 
 - O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
 
-- [ ] 8. Escreva um programa que defina três números em variáveis no seu começo e retorne `true` se pelo menos uma das três for par. Caso contrário, ele retorna `false`.
+- [x] 8. Escreva um programa que defina três números em variáveis no seu começo e retorne `true` se pelo menos uma das três for par. Caso contrário, ele retorna `false`.
 
 - **_Bonus:_** use somente um `if`.
 
-- [ ] 9. Escreva um programa que defina três números em variáveis no seu começo e retorne `true` se pelo menos uma das três for ímpar. Caso contrário, ele retorna `false`.
+- [x] 9. Escreva um programa que defina três números em variáveis no seu começo e retorne `true` se pelo menos uma das três for ímpar. Caso contrário, ele retorna `false`.
 
 - **_Bonus:_** use somente um `if`.
 
-- [ ] 10. Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+- [x] 10. Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
 
 - Atente que, sobre o custo do produto, incide um imposto de 20%.
 
@@ -92,7 +92,7 @@ Nos exercícios de hoje, você vai fazer quinze pequenos programas. Todos trabal
 
   - lucro = valorVenda - valorCustoTotal (lucro de um produto)
 
-- [ ] 11. Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.
+- [x] 11. Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.
 
 - A notação para um salário de R$1500,10, por exemplo, deve ser 1500.10. Para as faixas de impostos, use as seguintes referências:
 

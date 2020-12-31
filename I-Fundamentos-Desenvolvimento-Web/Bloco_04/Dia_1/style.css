@@ -2,10 +2,28 @@ a {
   color: cadetblue;
 }
 
+.bg-color {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
 body {
-  color: cadetblue;
+  background-attachment: fixed;
+  background-image: url(Wallpaper_01.png);
+  background-position: initial;
+  background-position-y: -50px;
+  background-repeat: no-repeat;
+  background-size: 1580px;
+  color: rgb(51, 108, 110);
   font-family: sans-serif;
+  height: 100%;
   margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  padding-top: 0;
 }
 
 .btn {
@@ -19,10 +37,27 @@ body {
 }
 
 fieldset {
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
-  margin: 0 auto;
-  padding-top: 0;
+  margin: 0 auto 30px;
+  padding: 0 30px 20px;
+  text-align: justify;
   width: 90%
+}
+
+fieldset h3 {
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+  padding: 3px 5px;
+  text-align: center;
+}
+
+fieldset li {
+  line-height: 25px;
 }
 
 footer {
@@ -38,12 +73,16 @@ footer {
 }
 
 h1 {
+  color: white;
   font-size: 25px;
   text-align: center;
+  text-shadow: 1px 1px 3px rgb(47, 119, 121);
 }
 
 h2 {
+  font-size: 20px;
   text-align: center;
+  text-shadow: 0 0 5px white;
 }
 
 h3 {
@@ -55,13 +94,15 @@ input {
 }
 
 .menu {
+  background-color: white;
   border: solid 1px;
   border-radius: 15px;
   display: inline-block;
   margin-left: 25px;
   padding: 0 15px;
-  position: fixed;
+  position:  fixed;
   text-align: center;
+  width: 150px;
 }
 
 .menu a {
@@ -74,6 +115,10 @@ input {
   list-style-type: none;
 }
 
+.menu li:hover {
+  font-weight: bold;
+}
+
 .menu ul {
   padding-left: 0;
 }
@@ -82,20 +127,58 @@ p {
   margin-top: 0;
 }
 
+.r1 ul {
+  margin-left: 160px;
+  text-align: left;
+}
+
+.r1 li {
+  list-style-type: none;
+}
+
+.r2, .r5, .r10 {
+  padding-top: 40px;
+}
+
+.r3 {
+  padding-top: 50px;
+}
+
+.r4, .r8, .r9, .r11 {
+  padding-top: 20px;
+}
+
+.r6, .r7 {
+  padding-top: 30px;
+}
+
+.r11 p {
+  line-height: 30px;
+}
+
 .resultados {
   display: inline-block;
   height: 100%;
-  margin: 10px 25px;
+  margin: 10px 25px 0;
   text-align: center;
   width: 70%;
+}
+
+.resultados p {
+  text-align: center;
 }
 
 span {
   font-weight: bold;
 }
 
-fieldset li {
-  line-height: 25px;
+.t-menu {
+  font-size: 20px;
+}
+
+.t-menu:hover {
+  color: rgb(55, 116, 118);
+  font-size: 22px;
 }
 
 .v-input {
@@ -106,6 +189,7 @@ fieldset li {
 
 .valores {
   float: left;
+  margin-top: 30px;
   margin-left: 50px;
   text-align: center;
   width: 200px;

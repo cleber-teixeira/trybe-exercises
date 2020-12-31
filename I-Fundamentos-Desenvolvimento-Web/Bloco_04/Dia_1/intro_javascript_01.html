@@ -1,270 +1,333 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="script.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
-  <title>Intro. JavaScript</title>
-</head>
-<body>
-  <header>
-    <h1 id="inicio">Bloco 04 - Introdução à JavaScript e Lógica de Programação</h1>
-  </header>
-  <nav id="menu" class="menu">
-    <div id="div-menu" class="div-menu">
-      <a href="#inicio"><h2>Exercícios</h2></a>
-      <ul>
-        <li><a href="#ex-01">Exercício 01</a></li>
-        <li><a href="#ex-02">Exercício 02</a></li>
-        <li><a href="#ex-03">Exercício 03</a></li>
-        <li><a href="#ex-04">Exercício 04</a></li>
-        <li><a href="#ex-05">Exercício 05</a></li>
-        <li><a href="#ex-06">Exercício 06</a></li>
-        <li><a href="#ex-07">Exercício 07</a></li>
-        <li><a href="#ex-08">Exercício 08</a></li>
-        <li><a href="#ex-09">Exercício 09</a></li>
-        <li><a href="#ex-10">Exercício 10</a></li>
-        <li><a href="#ex-11">Exercício 11</a></li>
-      </ul>
-    </div>
-  </nav>
-  <main>
-    <div id="div-ex" class="div-ex">
-      <fieldset id="ex-01" class="ex"><legend><h3>Exercício 01</h3></legend>
-        <p>
-          Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas variáveis, <span>a</span> e <span>b</span>, definidas no começo com os valores que serão operados. Faça programas para: <span>Adição</span> | <span>Subtração</span> | <span>Multiplicação</span> | <span>Divisão</span> | <span>Módulo</span>
-        </p>
-        <div class="valores">
-          <div>
-            <span>a</span> = <input type="number" id="a1" class="v-input" placeholder="valor 1">
-          </div>
-          <div>
-            <span>b</span> = <input type="number" id="b1" class="v-input" placeholder="valor 2">
-          </div>
-            <button type="button" onclick="ex01()" class="btn">Calcular</button>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Intro. JavaScript</title>
+  </head>
+  <body>
+    <div class="bg-color">
+      <header>
+        <h1 id="inicio">Bloco 04 - Introdução à JavaScript e Lógica de Programação</h1>
+        <h2>Dia 01 - Introdução / Primeiros Passos &#128526;</h2>
+      </header>
+      <nav id="menu" class="menu">
+        <div id="div-menu" class="div-menu">
+          <a href="#inicio"><h3 class="t-menu">Exercícios</h3></a>
+          <ul>
+            <li><a href="#ex-01">Exercício 01</a></li>
+            <li><a href="#ex-02">Exercício 02</a></li>
+            <li><a href="#ex-03">Exercício 03</a></li>
+            <li><a href="#ex-04">Exercício 04</a></li>
+            <li><a href="#ex-05">Exercício 05</a></li>
+            <li><a href="#ex-06">Exercício 06</a></li>
+            <li><a href="#ex-07">Exercício 07</a></li>
+            <li><a href="#ex-08">Exercício 08</a></li>
+            <li><a href="#ex-09">Exercício 09</a></li>
+            <li><a href="#ex-10">Exercício 10</a></li>
+            <li><a href="#ex-11">Exercício 11</a></li>
+          </ul>
         </div>
-        <div class="resultados">
-          <p id="adcao" class="p1"></p>
-          <p id="subtracao" class="p1"></p>
-          <p id="divisao" class="p1"></p>
-          <p id="multiplicacao" class="p1"></p>
-          <p id="modulo" class="p1"></p>
-        </div>
-      </fieldset>
-      <fieldset id="ex-02" class="ex"><legend><h3>Exercício 02</h3></legend>
-        <p>
-          Faça um programa que retorne o <span>maior</span> de <span>dois</span> números. Defina no começo do programa duas variáveis com os valores que serão comparados.
-        </p>
-        <div class="valores">
-          <div>
-            Valor <span>1</span> = <input type="number" id="a2" class="v-input" placeholder="digite aqui">
-          </div>
-          <div>
-            Valor <span>2</span> = <input type="number" id="b2" class="v-input" placeholder="digite aqui">
-          </div>
-          <button type="button" onclick="ex02()" class="btn">Comparar</button>
-        </div>
-        <div class="resultados">
-          <p id="resultado2"></p>
-        </div>
-      </fieldset>
-      <fieldset id="ex-03" class="ex"><legend><h3>Exercício 03</h3></legend>
-        <p>
-          Faça um programa que retorne o <span>maior</span> de <span>três</span> números.
-          Defina no começo do programa três variáveis com os 
-          valores que serão comparados.
-        </p>
-        <div class="valores">
-          <div>
-            Valor <span>1</span> = <input type="number" id="a3" class="v-input" placeholder="digite aqui">
-          </div>
-          <div>
-            Valor <span>2</span> = <input type="number" id="b3" class="v-input" placeholder="digite aqui">
-          </div>
-          <div>
-            Valor <span>3</span> = <input type="number" id="c3" class="v-input" placeholder="digite aqui">
-          </div>
-            <button type="button" onclick="ex03()" class="btn">Comparar</button>
-        </div>
-        <div class="resultados">
-          <p id="resultado3"></p>
-        </div>
-      </fieldset>
-      <fieldset id="ex-04" class="ex"><legend><h3>Exercício 04</h3></legend>
-        <p>
-          Faça um programa que, dado um valor definido numa variável, retorne "<span>positive</span>" se esse valor for positivo, "<span>negative</span>" se for negativo e "<span>zero</span>" caso contrário.
-        </p>
-        <div class="valores">
-          <div>
-            Valor = <input type="number" id="a4" class="v-input" placeholder="digite aqui">
-          </div>
-          <button type="button" onclick="ex04()" class="btn">Verificar</button>
-        </div>
-        <div class="resultados">
-          <p id="resultado4"></p>
-        </div>
-      </fieldset>
-      <fieldset id="ex-05" class="ex"><legend><h3>Exercício 05</h3></legend>
-        <p>
-          Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne <span>true</span> se os ângulos representarem os ângulos de um triângulo e <span>false</span> caso contrário.
-        </p>
-        <p>
-          - <a href="https://blogdoenem.com.br/triangulos-propriedades/" target="_blanck">Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus.</a> Caso os ângulos estejam inválidos, o programa deve retornar uma mensagem de erro.
-        </p>
-        <div class="valores">
-          <div>
-            Ângulo <span>1</span> = <input type="number" id="a5" class="v-input" placeholder="digite aqui">
-          </div>
-          <div>
-            Ângulo <span>2</span> = <input type="number" id="b5" class="v-input" placeholder="digite aqui">
-          </div>
-          <div>
-            Ângulo <span>3</span> = <input type="number" id="c5" class="v-input" placeholder="digite aqui">
-          </div>
-            <button type="button" onclick="ex05()" class="btn">Comparar</button>
-        </div>
-        <div class="resultados">
-          <p id="resultado5"></p>
-        </div>
-      </fieldset>
-      <fieldset id="ex-06" class="ex"><legend><h3>Exercício 06</h3></legend>
-        <p>
-          Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
-        </p>
-        <ul>
-          <li>
-            Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
-          </li>
-          <li>
-            Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case).
-          </li>
-          <li>
-            Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
-          </li>
-        </ul>
-        <p>
-          - <em><span>Exemplo:</span></em> bispo &rarr; diagonais
-        </p>
-        <div class="valores">
-          <div>
-            <span>Peça de Xadrez</span><input type="text" id="a6" class="v-input" placeholder="digite aqui">
-          </div>
-          <button type="button" onclick="ex06()" class="btn">Comparar</button>
-        </div>
-        <div class="resultados">
-          <p id="resultado6"></p>
-        </div>
-      </fieldset>
-      <fieldset id="ex-07" class="ex"><legend><h3>Exercício 07</h3></legend>
-        <p>
-          Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
-        </p>
-        <ul>
-          <li>Porcentagem >= 90 &rarr; A</li>
-          <li>Porcentagem >= 80 &rarr; B</li>
-          <li>Porcentagem >= 70 &rarr; C</li>
-          <li>Porcentagem >= 60 &rarr; D</li>
-          <li>Porcentagem >= 50 &rarr; E</li>
-          <li>Porcentagem < 50 &rarr; F</li>
-          <li>O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.</li>
-        </ul>
-        <div class="valores">
-          <div>
-            Nota = <input type="number" id="a7" class="v-input" placeholder="digite aqui">
-          </div>
-          <button type="button" onclick="ex07()" class="btn">Converter</button>
-        </div>
-        <div class="resultados">
-          <p id="resultado7"></p>
-        </div>
-      </fieldset>
-      <fieldset id="ex-08" class="ex"><legend><h3>Exercício 08</h3></legend>
-        <p>
-          Escreva um programa que defina <span>três</span> números em variáveis no seu começo e retorne <em><span>true</span></em> se pelo menos uma das três for <span>par</span>. Caso contrário, ele retorna <em><span>false</span></em>.
-        </p>
-        <ul><li><span>Bônus:</span> use somente um <em><span>if</span></em>.</li></ul>
-        <div class="valores">
-          <div>
-            Valor <span>1</span> = <input type="number" id="a8" class="v-input" placeholder="digite aqui">
-          </div>
-          <div>
-            Valor <span>2</span> = <input type="number" id="b8" class="v-input" placeholder="digite aqui">
-          </div>
-          <div>
-            Valor <span>3</span> = <input type="number" id="c8" class="v-input" placeholder="digite aqui">
-          </div>
-            <button type="button" onclick="ex08()" class="btn">Verificar</button>
-        </div>
-        <div class="resultados">
-          <p id="resultado8"></p>
-        </div>
-      </fieldset>
-      <fieldset id="ex-09" class="ex"><legend><h3>Exercício 09</h3></legend>
-        <p>
-          Escreva um programa que defina <span>três</span> números em variáveis no seu começo e retorne <em><span>true</span></em> se pelo menos uma das três for <span>ímpar</span>. Caso contrário, ele retorna <em><span>false</span></em>.
-        </p>
-        <ul><li><span>Bônus:</span> use somente um <em><span>if</span></em>.</li></ul>
-        <div class="valores">
-          <div>
-            Valor <span>1</span> = <input type="number" id="a9" class="v-input" placeholder="digite aqui">
-          </div>
-          <div>
-            Valor <span>2</span> = <input type="number" id="b9" class="v-input" placeholder="digite aqui">
-          </div>
-          <div>
-            Valor <span>3</span> = <input type="number" id="c9" class="v-input" placeholder="digite aqui">
-          </div>
-            <button type="button" onclick="ex09()" class="btn">Verificar</button>
-        </div>
-        <div class="resultados">
-          <p id="resultado9"></p>
-        </div>
-      </fieldset>
-      <fieldset id="ex-10" class="ex"><legend><h3>Exercício 10</h3></legend>
-        <p>
-          Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o <span>valor de custo</span> de um produto e seu <span>valor de venda</span>. A partir dos valores, calcule quanto de <span>lucro</span> (<em>valor de venda descontado o custo do produto</em>) a empresa terá ao vender <span>mil</span> desses produtos.
-        </p>
-        <ul>
-          <li>
-            Atente que, sobre o custo do produto, incide um imposto de <span>20%</span>.
-          </li>
-          <li>
-            Seu programa também deve emitir uma <em>mensagem de <span>erro</span></em> e encerrar caso algum dos seus valores de entrada seja <em>menor que <span>zero</span></em>.
-          </li>
-          <li>
-            O lucro de um produto é o resultado da <em>subtração</em> do valor de venda pelo custo do mesmo, sendo que o imposto de 20% <em>também faz parte do valor de custo</em>.
-          </li>
+      </nav>
+      <main>
+        <div id="div-ex" class="div-ex">
+          <fieldset id="ex-01" class="ex"><legend><h3>Exercício 01</h3></legend>
+            <p>
+              Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas variáveis, <span>a</span> e <span>b</span>, definidas no começo com os valores que serão operados. Faça programas para: <span>Adição</span> | <span>Subtração</span> | <span>Multiplicação</span> | <span>Divisão</span> | <span>Módulo</span>
+            </p>
+            <div class="valores">
+              <div>
+                <span>a</span> = <input type="number" id="a1" class="v-input" placeholder="valor 1">
+              </div>
+              <div>
+                <span>b</span> = <input type="number" id="b1" class="v-input" placeholder="valor 2">
+              </div>
+                <button type="button" onclick="ex01()" class="btn">Calcular</button>
+            </div>
+            <div class="resultados r1">
+              <ul>
+                <li id="adcao"></li>
+                <li id="subtracao"></li>
+                <li id="divisao"></li>
+                <li id="multiplicacao"></li>
+                <li id="modulo"></li>
+              </ul>
+              <!-- <p id="adcao" class="p1"></p>
+              <p id="subtracao" class="p1"></p>
+              <p id="divisao" class="p1"></p>
+              <p id="multiplicacao" class="p1"></p>
+              <p id="modulo" class="p1"></p> -->
+            </div>
+          </fieldset>
+          <fieldset id="ex-02" class="ex"><legend><h3>Exercício 02</h3></legend>
+            <p>
+              Faça um programa que retorne o <span>maior</span> de <span>dois</span> números. Defina no começo do programa duas variáveis com os valores que serão comparados.
+            </p>
+            <div class="valores">
+              <div>
+                Valor <span>1</span> = <input type="number" id="a2" class="v-input" placeholder="digite aqui">
+              </div>
+              <div>
+                Valor <span>2</span> = <input type="number" id="b2" class="v-input" placeholder="digite aqui">
+              </div>
+              <button type="button" onclick="ex02()" class="btn">Comparar</button>
+            </div>
+            <div class="resultados r2">
+              <p id="resultado2"></p>
+            </div>
+          </fieldset>
+          <fieldset id="ex-03" class="ex"><legend><h3>Exercício 03</h3></legend>
+            <p>
+              Faça um programa que retorne o <span>maior</span> de <span>três</span> números.
+              Defina no começo do programa três variáveis com os 
+              valores que serão comparados.
+            </p>
+            <div class="valores">
+              <div>
+                Valor <span>1</span> = <input type="number" id="a3" class="v-input" placeholder="digite aqui">
+              </div>
+              <div>
+                Valor <span>2</span> = <input type="number" id="b3" class="v-input" placeholder="digite aqui">
+              </div>
+              <div>
+                Valor <span>3</span> = <input type="number" id="c3" class="v-input" placeholder="digite aqui">
+              </div>
+                <button type="button" onclick="ex03()" class="btn">Comparar</button>
+            </div>
+            <div class="resultados r3">
+              <p id="resultado3"></p>
+            </div>
+          </fieldset>
+          <fieldset id="ex-04" class="ex"><legend><h3>Exercício 04</h3></legend>
+            <p>
+              Faça um programa que, dado um valor definido numa variável, retorne "<span>positive</span>" se esse valor for positivo, "<span>negative</span>" se for negativo e "<span>zero</span>" caso contrário.
+            </p>
+            <div class="valores">
+              <div>
+                Valor = <input type="number" id="a4" class="v-input" placeholder="digite aqui">
+              </div>
+              <button type="button" onclick="ex04()" class="btn">Verificar</button>
+            </div>
+            <div class="resultados r4">
+              <p id="resultado4"></p>
+            </div>
+          </fieldset>
+          <fieldset id="ex-05" class="ex"><legend><h3>Exercício 05</h3></legend>
+            <p>
+              Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne <span>true</span> se os ângulos representarem os ângulos de um triângulo e <span>false</span> caso contrário.
+            </p>
+            <p>
+              - <a href="https://blogdoenem.com.br/triangulos-propriedades/" target="_blanck">Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus.</a> Caso os ângulos estejam inválidos, o programa deve retornar uma mensagem de erro.
+            </p>
+            <div class="valores">
+              <div>
+                Ângulo <span>1</span> = <input type="number" id="a5" class="v-input" placeholder="digite aqui">
+              </div>
+              <div>
+                Ângulo <span>2</span> = <input type="number" id="b5" class="v-input" placeholder="digite aqui">
+              </div>
+              <div>
+                Ângulo <span>3</span> = <input type="number" id="c5" class="v-input" placeholder="digite aqui">
+              </div>
+                <button type="button" onclick="ex05()" class="btn">Comparar</button>
+            </div>
+            <div class="resultados r5">
+              <p id="resultado5"></p>
+            </div>
+          </fieldset>
+          <fieldset id="ex-06" class="ex"><legend><h3>Exercício 06</h3></legend>
+            <p>
+              Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+            </p>
+            <ul>
+              <li>
+                Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
+              </li>
+              <li>
+                Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case).
+              </li>
+              <li>
+                Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
+              </li>
+            </ul>
+            <p>
+              - <em><span>Exemplo:</span></em> bispo &rarr; diagonais
+            </p>
+            <div class="valores">
+              <div>
+                <span>Peça de Xadrez</span><input type="text" id="a6" class="v-input" placeholder="digite aqui">
+              </div>
+              <button type="button" onclick="ex06()" class="btn">Comparar</button>
+            </div>
+            <div class="resultados r6">
+              <p id="resultado6"></p>
+            </div>
+          </fieldset>
+          <fieldset id="ex-07" class="ex"><legend><h3>Exercício 07</h3></legend>
+            <p>
+              Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
+            </p>
+            <ul>
+              <li>Porcentagem >= 90 &rarr; A</li>
+              <li>Porcentagem >= 80 &rarr; B</li>
+              <li>Porcentagem >= 70 &rarr; C</li>
+              <li>Porcentagem >= 60 &rarr; D</li>
+              <li>Porcentagem >= 50 &rarr; E</li>
+              <li>Porcentagem < 50 &rarr; F</li>
+              <li>O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.</li>
+            </ul>
+            <div class="valores">
+              <div>
+                Nota = <input type="number" id="a7" class="v-input" placeholder="digite aqui">
+              </div>
+              <button type="button" onclick="ex07()" class="btn">Converter</button>
+            </div>
+            <div class="resultados r7">
+              <p id="resultado7"></p>
+            </div>
+          </fieldset>
+          <fieldset id="ex-08" class="ex"><legend><h3>Exercício 08</h3></legend>
+            <p>
+              Escreva um programa que defina <span>três</span> números em variáveis no seu começo e retorne <em><span>true</span></em> se pelo menos uma das três for <span>par</span>. Caso contrário, ele retorna <em><span>false</span></em>.
+            </p>
+            <ul><li><span>Bônus:</span> use somente um <em><span>if</span></em>.</li></ul>
+            <div class="valores">
+              <div>
+                Valor <span>1</span> = <input type="number" id="a8" class="v-input" placeholder="digite aqui">
+              </div>
+              <div>
+                Valor <span>2</span> = <input type="number" id="b8" class="v-input" placeholder="digite aqui">
+              </div>
+              <div>
+                Valor <span>3</span> = <input type="number" id="c8" class="v-input" placeholder="digite aqui">
+              </div>
+                <button type="button" onclick="ex08()" class="btn">Verificar</button>
+            </div>
+            <div class="resultados r8">
+              <p id="resultado8"></p>
+            </div>
+          </fieldset>
+          <fieldset id="ex-09" class="ex"><legend><h3>Exercício 09</h3></legend>
+            <p>
+              Escreva um programa que defina <span>três</span> números em variáveis no seu começo e retorne <em><span>true</span></em> se pelo menos uma das três for <span>ímpar</span>. Caso contrário, ele retorna <em><span>false</span></em>.
+            </p>
+            <ul><li><span>Bônus:</span> use somente um <em><span>if</span></em>.</li></ul>
+            <div class="valores">
+              <div>
+                Valor <span>1</span> = <input type="number" id="a9" class="v-input" placeholder="digite aqui">
+              </div>
+              <div>
+                Valor <span>2</span> = <input type="number" id="b9" class="v-input" placeholder="digite aqui">
+              </div>
+              <div>
+                Valor <span>3</span> = <input type="number" id="c9" class="v-input" placeholder="digite aqui">
+              </div>
+                <button type="button" onclick="ex09()" class="btn">Verificar</button>
+            </div>
+            <div class="resultados r9">
+              <p id="resultado9"></p>
+            </div>
+          </fieldset>
+          <fieldset id="ex-10" class="ex"><legend><h3>Exercício 10</h3></legend>
+            <p>
+              Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o <span>valor de custo</span> de um produto e seu <span>valor de venda</span>. A partir dos valores, calcule quanto de <span>lucro</span> (<em>valor de venda descontado o custo do produto</em>) a empresa terá ao vender <span>mil</span> desses produtos.
+            </p>
+            <ul>
+              <li>
+                Atente que, sobre o custo do produto, incide um imposto de <span>20%</span>.
+              </li>
+              <li>
+                Seu programa também deve emitir uma <em>mensagem de <span>erro</span></em> e encerrar caso algum dos seus valores de entrada seja <em>menor que <span>zero</span></em>.
+              </li>
+              <li>
+                O lucro de um produto é o resultado da <em>subtração</em> do valor de venda pelo custo do mesmo, sendo que o imposto de 20% <em>também faz parte do valor de custo</em>.
+              </li>
+              <ul>
+                <li>
+                  <span>valorCustoTotal</span> = valorCusto + impostoSobreOCusto
+                </li>
+                <li>
+                  <span>lucro</span> = valorVenda - valorCustoTotal (<em>lucro de um produto</em>)
+                </li>
+              </ul>
+            </ul>
+            <ul><li><span>Bônus:</span> use somente um <em><span>if</span></em>.</li></ul>
+            <div class="valores">
+              <div>
+                Valor de custo <input type="number" id="a10" class="v-input" placeholder="digite aqui">
+              </div>
+              <div>
+                Valor de venda <input type="number" id="b10" class="v-input" placeholder="digite aqui">
+              </div>
+              <button type="button" onclick="ex10()" class="btn">Calcular Lucro</button>
+            </div>
+            <div class="resultados r10">
+              <p id="resultado10"></p>
+            </div>
+          </fieldset>
+          <fieldset id="ex-11" class="ex"><legend><h3>Exercício 11</h3></legend>
+            <p>Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.</p>
+            <ul>
+              <li>
+                A notação para um salário de R$1500,10, por exemplo, deve ser 1500.10. Para as faixas de impostos, use as seguintes referências:
+              </li>
+              <ul>
+                <li><span>INSS</span></li>
+                <ul>
+                  <li>Salário bruto até R$ 1.556,94: alíquota de 8%</li>
+                  <li>Salário bruto de R$ 1.556,95 a R$ 2.594,92: alíquota de 9%</li>
+                  <li>Salário bruto de R$ 2.594,93 a R$ 5.189,82: alíquota de 11%</li>
+                  <li>Salário bruto acima de R$ 5.189,82: alíquota máxima de R$ 570,88</li>
+                </ul>
+                <li><span>IR</span></li>
+                <ul>
+                  <li>Até R$ 1.903,98: isento de imposto de renda</li>
+                  <li>De R$ 1.903,99 a 2.826,65: alíquota de 7,5% e parcela de R$ 142,80 a deduzir do imposto</li>
+                  <li>De R$ 2.826,66 a R$ 3.751,05: alíquota de 15% e parcela de R$ 354,80 a deduzir do imposto</li>
+                  <li>De R$ 3.751,06 a R$ 4.664,68: alíquota de 22,5% e parcela de R$ 636,13 a deduzir do imposto</li>
+                  <li>Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto.</li>
+                </ul>
+              </ul>
+            </ul>
+          <p><span>Exemplo:</span> Uma pessoa possui o salário bruto de R$ 3.000,00. O cálculo será:</p>
           <ul>
             <li>
-              <span>valorCustoTotal</span> = valorCusto + impostoSobreOCusto
+              O salário bruto está entre R$ 2.594,93 e R$ 5.189,82, então sua alíquota para INSS é de 11%. O INSS será 11% de R$ 3.000, ou seja, R$ 330,00.
             </li>
             <li>
-              <span>lucro</span> = valorVenda - valorCustoTotal (<em>lucro de um produto</em>)
+              Para descobrir o salário-base, subtraia do salário bruto a alíquota do INSS: R$ 3.000,00 - R$ 330,00 = R$ 2.670,00.
             </li>
+            <li>
+              Para pegar o valor do IR, temos um salário (já deduzido o INSS) entre R$ 1.903,99 e 2.826,65, sendo a alíquota, então, de 7.5%, com parcela de R$ 142,80 a deduzir do imposto. Assim, temos:
+            </li>
+            <ul>
+              <li>R$ 2.670,00: salário com INSS já deduzido;</li>
+              <li>7.5%: alíquota de imposto de renda;</li>
+              <li>R$ 142,00 parcela a se deduzir do imposto.</li>
+            </ul>
+            <li>Fazendo a conta, temos: (7,5% de R$ 2.670,00) - R$ 142,80 = R$ 57,45</li>
+            <li>O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 (salário-base - valor IR) = R$ 2.612,55.</li>
           </ul>
-        </ul>
-        <ul><li><span>Bônus:</span> use somente um <em><span>if</span></em>.</li></ul>
-        <div class="valores">
-          <div>
-            Valor de custo <input type="number" id="a10" class="v-input" placeholder="digite aqui">
-          </div>
-          <div>
-            Valor de venda <input type="number" id="b10" class="v-input" placeholder="digite aqui">
-          </div>
-          <button type="button" onclick="ex10()" class="btn">Verificar</button>
+          <p>Resultado: R$ 2.612,55.</p>
+          <p><em><span>Dica:</span> que tal identificar as alíquotas com variáveis de nomes explicativos?</em></p>
+            <div class="valores">
+              <div>
+                Salário Bruto <input type="number" id="a11" class="v-input" placeholder="digite aqui">
+              </div>
+              <button type="button" onclick="ex11()" class="btn">Salário Líquido</button>
+            </div>
+            <div class="resultados r11">
+              <p id="resultado11"></p>
+            </div>
+          </fieldset>
         </div>
-        <div class="resultados">
-          <p id="resultado10"></p>
-        </div>
-      </fieldset>
-      <fieldset id="ex-11" class="ex"><legend><h3>Exercício 11</h3></legend></fieldset>
+      </main>
+      <footer>
+        Exercícios realizados por Cleber Lopes Teixeira - aluno do curso de Desenvolvimento Web - Full Stack | Trybe &#128640; - Turma 09 - 2020 &copy;
+      </footer>
     </div>
-  </main>
-  <footer>
-    Exercícios realizados por Cleber Lopes Teixeira - aluno do curso de Desenvolvimento Web - Full Stack | Trybe &#128640; - Turma 09 - 2020 &copy;
-  </footer>
-  
-</body>
+  </body>
 </html>

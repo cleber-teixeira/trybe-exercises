@@ -11,13 +11,13 @@ function ex01() {
   let adicao = a + b;
   let subtracao = a - b;
   let multiplicacao = a * b;
-  let divisao = parseFloat(a / b).toFixed(2);
+  let divisao = a / b;
   let modulo = a % b;
-  document.getElementById('adcao').innerHTML = `- A adição ${a} + ${b} é igual a ${adicao}`;
-  document.getElementById('subtracao').innerHTML = `- A subtração ${a} - ${b} é igual a ${subtracao}`;
-  document.getElementById('multiplicacao').innerHTML = `- A multiplicação ${a} * ${b} é igual a ${multiplicacao}`;
-  document.getElementById('divisao').innerHTML = `- A divisão ${a} / ${b} é igual a ${divisao}`;
-  document.getElementById('modulo').innerHTML = `- O resto da divisão entre ${a} e ${b} é igual a ${modulo}`;
+  document.getElementById('adcao').innerHTML = `A adição ${a} + ${b} é igual a ${adicao}`;
+  document.getElementById('subtracao').innerHTML = `A subtração ${a} - ${b} é igual a ${subtracao}`;
+  document.getElementById('multiplicacao').innerHTML = `A multiplicação ${a} * ${b} é igual a ${multiplicacao}`;
+  document.getElementById('divisao').innerHTML = ` A divisão ${a} / ${b} é igual a ${divisao}`;
+  document.getElementById('modulo').innerHTML = ` O resto da divisão entre ${a} e ${b} é igual a ${modulo}`;
 }
 
 /*
@@ -243,5 +243,76 @@ function ex10() {
     const lucro = parseFloat(venda) - valorCustoTotal;
     const lucroTotal = parseFloat(lucro * 1000).toFixed(2);
     document.getElementById('resultado10').innerHTML = `Ao vender mil desses produtos a empresa terá um lucro de <em><span>R$ ${lucroTotal}</span></em>`;
+  }
+}
+
+/*
+  11- Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.
+
+    * A notação para um salário de R$1500,10, por exemplo, deve ser 1500.10. Para as faixas de impostos, use as seguintes referências:
+  
+      - INSS
+        * Salário bruto até R$ 1.556,94: alíquota de 8%
+        * Salário bruto de R$ 1.556,95 a R$ 2.594,92: alíquota de 9%
+        * Salário bruto de R$ 2.594,93 a R$ 5.189,82: alíquota de 11%
+        * Salário bruto acima de R$ 5.189,82: alíquota máxima de R$ 570,88
+  
+      - IR
+        * Até R$ 1.903,98: isento de imposto de renda
+        * De R$ 1.903,99 a 2.826,65: alíquota de 7,5% e parcela de R$ 142,80 a deduzir do imposto
+        * De R$ 2.826,66 a R$ 3.751,05: alíquota de 15% e parcela de R$ 354,80 a deduzir do imposto
+        * De R$ 3.751,06 a R$ 4.664,68: alíquota de 22,5% e parcela de R$ 636,13 a deduzir do imposto
+        * Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto.
+*/
+
+function ex11() {
+  // Receber valor referente ao salário bruto
+  const salarioBruto = parseFloat(document.getElementById('a11').value);
+  // Declarar variáveis
+  let aliquotaInss;
+  let impostoDeRenda;
+  let salarioBase;
+  let salarioLiquido;
+  // Validar a entrada de dados
+  const validar = parseFloat(document.getElementById('a11').value);
+  console.log(validar);
+  if (validar < 0 || validar === '') {
+    document.getElementById('resultado11').innerHTML = '<span>ERRO!</span> Valor inválido.';
+  // Identificar a taxa do INSS
+  } else if (salarioBruto <= 1556.94) {
+    console.log('passando aqui 281');
+    aliquotaInss = parseFloat(salarioBruto * 0.08).toFixed(2);
+    salarioBase = salarioBruto - aliquotaInss;
+  } else if (salarioBruto <= 2594.92) {
+    aliquotaInss = parseFloat(salarioBruto * 0.09).toFixed(2);
+    salarioBase = salarioBruto - aliquotaInss;
+  } else if (salarioBruto <= 5189.82) {
+    aliquotaInss = parseFloat(salarioBruto * 0.11).toFixed(2);
+    salarioBase = salarioBruto - aliquotaInss;
+  } else {
+    aliquotaInss = parseFloat(570.88).toFixed(2);
+    salarioBase = salarioBruto - aliquotaInss;
+  }
+  
+  // Identificar o Imposto de Renda (IR)
+  if (salarioBase <= 1903.98) {
+    salarioLiquido = parseFloat(salarioBase).toFixed(2);
+    document.getElementById('resultado11').innerHTML = `Salário Líquido = <span>R$ ${salarioLiquido}</span><br>Taxa INSS = <span>R$ ${aliquotaInss}</span><br>Imposto de Renda = <span>Isento</span>`;
+  } else if (salarioBase <= 2826.65) {
+    impostoDeRenda = parseFloat((salarioBase * 0.075) - 142.80).toFixed(2);
+    salarioLiquido = parseFloat(salarioBase - impostoDeRenda).toFixed(2);
+    document.getElementById('resultado11').innerHTML = `Salário Líquido = <span>R$ ${salarioLiquido}</span><br>Taxa INSS = <span>R$ ${aliquotaInss}</span><br>Imposto de Renda = <span>R$ ${impostoDeRenda}</span>`;
+  } else if (salarioBase <= 3751.05) {
+    impostoDeRenda = parseFloat((salarioBase * 0.15) - 354.80).toFixed(2);
+    salarioLiquido = parseFloat(salarioBase - impostoDeRenda).toFixed(2);
+    document.getElementById('resultado11').innerHTML = `Salário Líquido = <span>R$ ${salarioLiquido}</span><br>Taxa INSS = <span>R$ ${aliquotaInss}</span><br>Imposto de Renda = <span>R$ ${impostoDeRenda}</span>`;
+  } else if (salarioBase <= 4664.68) {
+    impostoDeRenda = parseFloat((salarioBase * 0.225) - 636.13).toFixed(2);
+    salarioLiquido = parseFloat(salarioBase - impostoDeRenda).toFixed(2);
+    document.getElementById('resultado11').innerHTML = `Salário Líquido = <span>R$ ${salarioLiquido}</span><br>Taxa INSS = <span>R$ ${aliquotaInss}</span><br>Imposto de Renda = <span>R$ ${impostoDeRenda}</span>`;
+  } else {
+    impostoDeRenda = parseFloat((salarioBase * 0.275) - 869.36).toFixed(2);
+    salarioLiquido = parseFloat(salarioBase - impostoDeRenda).toFixed(2);
+    document.getElementById('resultado11').innerHTML = `Salário Líquido = <span>R$ ${salarioLiquido}</span><br>Taxa INSS = <span>R$ ${aliquotaInss}</span><br>Imposto de Renda = <span>R$ ${impostoDeRenda}</span>`;
   }
 }

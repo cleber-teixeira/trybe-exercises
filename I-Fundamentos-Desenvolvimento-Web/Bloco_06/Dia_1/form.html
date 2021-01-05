@@ -133,8 +133,20 @@
         <label for="">DESCRIÇÃO DO CARGO:</label>
         <input type="text" name="descricao-cargo" id="description" class="description" placeholder="digite aqui a descrição do seu cargo" maxlength="500" required>
       </div>
-      
-      <div class="div-content"></div>
+
+      <!-- DATA DE INÍCIO
+        Data de início - Texto
+        Verificar o formato da data dd/mm/aaaa .
+        O dia deve ser > 0 e <= 31.
+        O mês deve ser > 0 e <= 12.
+        O ano não pode ser negativo.
+        Caso alguma das condições for inválida no momento do envio do formulário, exibir mensagem de erro contextualizada.
+        Campo obrigatório
+      -->
+      <div class="div-content">
+        <label for="">DATA DE INÍCIO:</label>
+        <input type="text" name="data" id="startdate" class="startdate" required>
+      </div>
     </fieldset>
   </form>
 

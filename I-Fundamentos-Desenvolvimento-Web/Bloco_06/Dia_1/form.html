@@ -89,7 +89,7 @@
         Campo obrigatório
       -->
       <div class="div-content">
-        <p>TIPO DE MORADIA</p>
+        <p>TIPO DE MORADIA:</p>
         <input id="home" class="radio" type="radio" name="tipo" value="casa" checked>
         <label class="home" for="home">Casa</label> 
         <input id="apartment" class="radio" type="radio" name="tipo" value="casa">
@@ -110,7 +110,7 @@
         Campo obrigatório
       -->
       <div class="div-content">
-        <label for="">RESUMO DO CURRÍCULO</label></br>
+        <label for="">RESUMO DO CURRÍCULO:</label></br>
         <textarea name="resumo-curriculo" id="resume" class="resume" placeholder="digite aqui o resumo do seu curriculo" maxlength="1000" cols="30" rows="10" required></textarea>
       </div>
 
@@ -124,7 +124,16 @@
         <input type="text" name="cargo" id="office" class="office" placeholder="digite aqui seu cargo" maxlength="40" required>
       </div>
 
-      <div class="div-content"></div>
+      <!-- DESCRIÇÃO DO CARGO
+        Descrição do cargo - Texto
+        Limite de 500 caracteres
+        Campo obrigatório
+      -->
+      <div class="div-content">
+        <label for="">DESCRIÇÃO DO CARGO:</label>
+        <input type="text" name="descricao-cargo" id="description" class="description" placeholder="digite aqui a descrição do seu cargo" maxlength="500" required>
+      </div>
+      
       <div class="div-content"></div>
     </fieldset>
   </form>

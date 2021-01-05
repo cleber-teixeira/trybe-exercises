@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script src="style.css"></script>
+  <script src="script.js"></script>
   <title>Forms, Flexbox e Responsivo</title>
 </head>
 <body>
@@ -66,9 +66,22 @@
       -->
       <div class="div-content">
         <label for="">CIDADE:</label>
-        <input id="input-city" class="input-city" type="text" name="endereco" maxlength="28" required>
+        <input id="input-city" class="input-city" type="text" name="cidade" maxlength="28" required>
       </div>
       
+      <!-- ESTADO
+        Estado - ComboBox
+        Todos os estados do Brasil
+        Utilize estruturas de repetição via JavaScript para gerar os <option>
+        Campo Obrigatório
+      -->
+      <div class="div-content">
+        <label for="">ESTADO:</label>
+        <select name="state" id="select-state" class="select-state" required>
+
+        </select>
+      </div>
+
     </fieldset>
 
   </form>

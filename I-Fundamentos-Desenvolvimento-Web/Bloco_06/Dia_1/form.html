@@ -26,7 +26,7 @@
       -->
       <div class="div-content">
         <label for="">NOME:</label>
-        <input id="input-name" class="input-name" type="text" name="nome" maxlength="40" required>
+        <input id="input-name" class="input-name" type="text" name="nome" placeholder="digite aqui seu nome" maxlength="40" required>
       </div>
       
       <!-- EMAIL
@@ -36,7 +36,7 @@
       -->
       <div class="div-content">
         <label for="">E-MAIL:</label>
-        <input id="input-email" class="input-email" type="text" name="e-mail" maxlength="50" required>
+        <input id="input-email" class="input-email" type="text" name="e-mail" placeholder="digite aqui seu e-mail" maxlength="50" required>
       </div>
 
       <!-- CPF
@@ -46,7 +46,7 @@
       -->
       <div class="div-content">
         <label for="">CPF:</label>
-        <input id="input-cpf" class="input-cpf" type="text" name="cpf" maxlength="11" required>
+        <input id="input-cpf" class="input-cpf" type="text" name="cpf" placeholder="digite aqui seu CPF (apenas números)" maxlength="11" required>
       </div>
 
       <!-- ENDEREÇO
@@ -56,7 +56,7 @@
       -->
       <div class="div-content">
         <label for="">ENDEREÇO:</label>
-        <input id="input-address" class="input-address" type="text" name="endereco" maxlength="200" required>
+        <input id="input-address" class="input-address" type="text" name="endereco" placeholder="digite aqui seu endereço completo" maxlength="200" required>
       </div>
 
       <!-- CIDADE
@@ -66,7 +66,7 @@
       -->
       <div class="div-content">
         <label for="">CIDADE:</label>
-        <input id="input-city" class="input-city" type="text" name="cidade" maxlength="28" required>
+        <input id="input-city" class="input-city" type="text" name="cidade" placeholder="digite aqui sua cidade" maxlength="28" required>
       </div>
       
       <!-- ESTADO
@@ -77,11 +77,21 @@
       -->
       <div class="div-content">
         <label for="">ESTADO:</label>
-        <select name="state" id="select-state" class="select-state" required>
+        <select id="select-state" class="select-state" name="estado" required></select>
+      </div></br>
 
-        </select>
+      <!-- TIPO DE MORADIA
+        Tipo - Radio Button
+        Casa, Apartamento
+        Campo obrigatório
+      -->
+      <div class="div-content">
+        <p>TIPO DE MORADIA</p>
+        <input id="home" class="radio" type="radio" name="tipo" value="casa" checked>
+        <label class="home" for="home">Casa</label> 
+        <input id="apartment" class="radio" type="radio" name="tipo" value="casa">
+        <label class="apartment" for="apartment">Apartamento</label>
       </div>
-
     </fieldset>
 
   </form>

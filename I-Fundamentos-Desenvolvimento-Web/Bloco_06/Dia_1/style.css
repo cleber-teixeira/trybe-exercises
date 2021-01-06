@@ -10,6 +10,11 @@ body {
   font-family: sans-serif;
   font-size: 14px;
   line-height: 1.5;
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: initial;
 }
 
 .box-style {
@@ -21,14 +26,15 @@ body {
 }
 
 .button {
-  padding: 5px 10px;
-  letter-spacing: 1px;
   color: cadetblue;
   font-weight: bolder;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  padding: 5px 10px;
 }
 
 .controls {
-  padding: 0 20px 15px 50px;
+  padding: 0 20px 10px 40px;
   width: 100%;
 }
 
@@ -60,8 +66,8 @@ body {
 }
 
 .p-data {
-  margin-top: 10px;
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 .radio {
@@ -81,8 +87,8 @@ body {
   margin-top: 10px;
   max-height: 170px;
   max-width: 850px;
-  min-width: 248px;
   min-height: 90px;
+  min-width: 248px;
   padding: 7px;
   width: 50%;
 }

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
   <title>Forms, Flexbox e Responsivo</title>
@@ -10,7 +11,7 @@
 <body>
 
   <header class="box-style header-title">
-    <h1>FORMULÁRIO DE CADASTRO DE CURRÍCULO</h1>
+    <h1>FORMULÁRIO DE CADASTRO DE CURRÍCULO &#128188;</h1>
   </header>
 
   <form class="box-style" action="">
@@ -148,16 +149,21 @@
         <input type="text" name="data" id="start-date" class="start-date" placeholder="dd/mm/aaaa" maxlength="10" required>
       </div>
     </fieldset>
-
-    <!-- BOTÃO ENVIAR
+    
+    <div class="controls">
+      <!-- BOTÃO ENVIAR
       Exercício 03
       - Logo abaixo do formulário, crie um botão que:
       - Chame uma função JavaScript e interrompa o fluxo automático do form utilizando o preventDefault() .
       - Execute as validações que foram pedidas ao longo da montagem do formulário.
       - Monte uma <div> com o consolidado dos dados que foram inseridos no formulário.
     -->
-    <div class="controls">
       <button type="submit" id="submit-btn" class="button">Enviar</button>
+      <!-- BOTÃO LIMPAR
+        Exercício 04
+        - Crie um botão Limpar que limpa todos os campos do formulário e a <div> com seu currículo também.
+      -->
+      <button type="reset" class="button">Limpar</button>
     </div>
   </form>
 </body>

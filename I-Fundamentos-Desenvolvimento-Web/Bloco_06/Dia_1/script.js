@@ -19,8 +19,45 @@ function optionCreate () {
     }
   }
 }
+
+// Função para validar a data
+function checkDate(date) {
+  // const date = getElementById('start-date').value;
+  if (date.length === 10) {
+    if (date[2] === '/' && date[5] === '/') {
+      if (date.slice(0, 2) > 0 && date.slice(0, 2) <= 31) {
+        if (date.slice(3, 5) > 0 && date.slice(3, 5) <= 12) {
+          if (date.slice(6, 10) >= 0) {
+            true
+          } else {
+            alert('ERRO! Data ou formato (dd/mm/aaaa) incorreto!');        
+          }
+        } else {
+          alert('ERRO! Data ou formato (dd/mm/aaaa) incorreto!');
+        }
+      } else {
+        alert('ERRO! Data ou formato (dd/mm/aaaa) incorreto!');
+      }
+    } else {
+      alert('ERRO! Data ou formato (dd/mm/aaaa) incorreto!');
+    }
+  } else {
+    alert('ERRO! Data ou formato (dd/mm/aaaa) incorreto!');
+  }
+}
+
+// Função para receber a data e chamar a função de validação
+function selectDate() {
+  const dateSelect = document.getElementById('start-date');
+  dateSelect.addEventListener('change', function (event) {
+    const date = event.target.value;
+    checkDate(date);
+  }); 
+}
+
 // Inicia as funções após o carregamento da página HTML
 window.onload = function () {
   // Cria tags <option>
   optionCreate();
+  selectDate();
 }

@@ -47,17 +47,76 @@ function checkDate(date) {
 }
 
 // Função para receber a data e chamar a função de validação
-function selectDate() {
+/* function selectDate() {
   const dateSelect = document.getElementById('start-date');
   dateSelect.addEventListener('change', function (event) {
     const date = event.target.value;
     checkDate(date);
   }); 
+} */
+
+// Função para executar a função checkDate e preventDefault
+function notStartDefault(event) {
+  const date = document.getElementById('start-date').value;
+  checkDate(date);
+  divCreate();
+  event.preventDefault();
+}
+
+// Função para executar função notStartDefout do botão 'Enviar'
+function actionBtn(){
+  const btn = document.getElementById('submit-btn');
+  btn.addEventListener('click', notStartDefault);
+}
+
+// Função para criar uma <div> e preencher com os dados do formulário
+function divCreate() {
+  // Obtem as referências dos valores
+  const page = document.body;
+  const name = document.getElementById('input-name').value;
+  const email = document.getElementById('input-email').value;
+  const cpf = document.getElementById('input-cpf').value;
+  const address = document.getElementById('input-address').value;
+  const city = document.getElementById('input-city').value;
+  const state = document.getElementById('select-state').value;
+  const home = document.getElementsByName('tipo');
+  let vHome;
+  for (let index = 0; index < home.length; index += 1) {
+    if (home[index].checked) {
+      vHome = home[index].value;
+    }
+  }
+  const resume = document.getElementById('resume').value;
+  const jobPosition = document.getElementById('job-position').value;
+  const description = document.getElementById('description').value;
+  const startDate = document.getElementById('start-date').value;
+  // Cria a <div>
+  const div = document.createElement('div');
+  div.id = 'div-data';
+  div.classList.add('box-style');
+  // Atribui os dados à <div>
+  div.innerHTML = `<h1>Formulário de Cadastro de Currículo &#128196;</h1>
+  <h2>Dados Pessoais:</h2><hr>
+  <p class="p-data"><strong>Nome:</strong> ${name}</p>
+  <p class="p-data"><strong>E-mail:</strong> ${email}</p>
+  <p class="p-data"><strong>CPF:</strong> ${cpf}</p>
+  <p class="p-data"><strong>Endereço:</strong> ${address}</p>
+  <p class="p-data"><strong>Cidade:</strong> ${city}</p>
+  <p class="p-data"><strong>Estado:</strong> ${state}</p>
+  <p class="p-data"><strong>Moradia:</strong> ${vHome}</p></br>
+  <h2>Dados do seu último emprego:</h2><hr>
+  <p class="p-data"><strong>Resumo do currículo:</strong> ${resume}</p>
+  <p class="p-data"><strong>Cargo:</strong> ${jobPosition}</p>
+  <p class="p-data"><strong>Descrição do cargo:</strong> ${description}</p>
+  <p class="p-data"><strong>Data de início:</strong> ${startDate}</p>`;
+  // Atribui a <div> à página
+  page.appendChild(div);
 }
 
 // Inicia as funções após o carregamento da página HTML
 window.onload = function () {
   // Cria tags <option>
   optionCreate();
-  selectDate();
+  // Evento botão 'Enviar'
+  actionBtn();
 }

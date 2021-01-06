@@ -17,15 +17,15 @@
 
     <!-- DADOS PESSOAIS
       Exercício 1
-      Crie um <fieldset> para os seguintes dados pessoais:
+      - Crie um <fieldset> para os seguintes dados pessoais:
     -->
     <fieldset class="fieldset-content">
       <legend>DADOS PESSOAIS</legend>
       
       <!-- NOME
-        Nome - Texto
-        Limite de 40 caracteres
-        Campo obrigatório
+        - Nome - Texto
+        - Limite de 40 caracteres
+        - Campo obrigatório
       -->
       <div class="div-content">
         <label for="">NOME:</label>
@@ -33,9 +33,9 @@
       </div>
       
       <!-- EMAIL
-        Email - Texto
-        Limite de 50 caracteres
-        Campo obrigatório
+        - Email - Texto
+        - Limite de 50 caracteres
+        - Campo obrigatório
       -->
       <div class="div-content">
         <label for="">E-MAIL:</label>
@@ -43,9 +43,9 @@
       </div>
 
       <!-- CPF
-        CPF - Texto
-        Limite de 11 caracteres
-        Campo obrigatório
+        - CPF - Texto
+        - Limite de 11 caracteres
+        - Campo obrigatório
       -->
       <div class="div-content">
         <label for="">CPF:</label>
@@ -53,9 +53,9 @@
       </div>
 
       <!-- ENDEREÇO
-        Endereço - Texto
-        Limite de 200 caracteres
-        Campo obrigatório
+        - Endereço - Texto
+        - Limite de 200 caracteres
+        - Campo obrigatório
       -->
       <div class="div-content">
         <label for="">ENDEREÇO:</label>
@@ -63,9 +63,9 @@
       </div>
 
       <!-- CIDADE
-        Cidade - Texto
-        Limite de 28 caracteres
-        Campo obrigatório
+        - Cidade - Texto
+        - Limite de 28 caracteres
+        - Campo obrigatório
       -->
       <div class="div-content">
         <label for="">CIDADE:</label>
@@ -73,10 +73,10 @@
       </div>
       
       <!-- ESTADO
-        Estado - ComboBox
-        Todos os estados do Brasil
-        Utilize estruturas de repetição via JavaScript para gerar os <option>
-        Campo Obrigatório
+        - Estado - ComboBox
+        - Todos os estados do Brasil
+        - Utilize estruturas de repetição via JavaScript para gerar os <option>
+        - Campo Obrigatório
       -->
       <div class="div-content">
         <label for="">ESTADO:</label>
@@ -84,30 +84,30 @@
       </div></br>
 
       <!-- TIPO DE MORADIA
-        Tipo - Radio Button
-        Casa, Apartamento
-        Campo obrigatório
+        - Tipo - Radio Button
+        - Casa, Apartamento
+        - Campo obrigatório
       -->
       <div class="div-content">
         <p>TIPO DE MORADIA:</p>
         <input id="home" class="radio" type="radio" name="tipo" value="casa" checked>
         <label class="home" for="home">Casa</label> 
-        <input id="apartment" class="radio" type="radio" name="tipo" value="casa">
+        <input id="apartment" class="radio" type="radio" name="tipo" value="apartamento">
         <label class="apartment" for="apartment">Apartamento</label>
       </div>
     </fieldset>
 
     <!-- DADOS DO SEU ÚLTIMO EMPREGO
       Exercício 02
-      Crie outro <fieldset> para dados do seu último emprego
+      - Crie outro <fieldset> para dados do seu último emprego
     -->
     <fieldset class="fieldset-content">
       <legend>DADOS DO SEU ÚLTIMO EMPREGO</legend>
 
       <!-- RESUMO DO CURRÍCULO
-        Resumo do currículo - TextArea
-        Limite de 1000 caracteres
-        Campo obrigatório
+        - Resumo do currículo - TextArea
+        - Limite de 1000 caracteres
+        - Campo obrigatório
       -->
       <div class="div-content">
         <label for="">RESUMO DO CURRÍCULO:</label></br>
@@ -115,19 +115,19 @@
       </div>
 
       <!-- CARGO
-        Cargo - Texto
-        Limite de 40 caracteres
-        Campo obrigatório
+        - Cargo - Texto
+        - Limite de 40 caracteres
+        - Campo obrigatório
       -->
       <div class="div-content">
         <label for="">CARGO:</label>
-        <input type="text" name="cargo" id="office" class="office" placeholder="digite aqui seu cargo" maxlength="40" required>
+        <input type="text" name="cargo" id="job-position" class="job-position" placeholder="digite aqui seu cargo" maxlength="40" required>
       </div>
 
       <!-- DESCRIÇÃO DO CARGO
-        Descrição do cargo - Texto
-        Limite de 500 caracteres
-        Campo obrigatório
+        - Descrição do cargo - Texto
+        - Limite de 500 caracteres
+        - Campo obrigatório
       -->
       <div class="div-content">
         <label for="">DESCRIÇÃO DO CARGO:</label>
@@ -135,20 +135,30 @@
       </div>
 
       <!-- DATA DE INÍCIO
-        Data de início - Texto
-        Verificar o formato da data dd/mm/aaaa .
-        O dia deve ser > 0 e <= 31.
-        O mês deve ser > 0 e <= 12.
-        O ano não pode ser negativo.
-        Caso alguma das condições for inválida no momento do envio do formulário, exibir mensagem de erro contextualizada.
-        Campo obrigatório
+        - Data de início - Texto
+        - Verificar o formato da data dd/mm/aaaa.
+        - O dia deve ser > 0 e <= 31.
+        - O mês deve ser > 0 e <= 12.
+        - O ano não pode ser negativo.
+        - Caso alguma das condições for inválida no momento do envio do formulário, exibir mensagem de erro contextualizada.
+        - Campo obrigatório
       -->
       <div class="div-content">
         <label for="">DATA DE INÍCIO:</label>
         <input type="text" name="data" id="start-date" class="start-date" placeholder="dd/mm/aaaa" maxlength="10" required>
       </div>
     </fieldset>
-  </form>
 
+    <!-- BOTÃO ENVIAR
+      Exercício 03
+      - Logo abaixo do formulário, crie um botão que:
+      - Chame uma função JavaScript e interrompa o fluxo automático do form utilizando o preventDefault() .
+      - Execute as validações que foram pedidas ao longo da montagem do formulário.
+      - Monte uma <div> com o consolidado dos dados que foram inseridos no formulário.
+    -->
+    <div class="controls">
+      <button type="submit" id="submit-btn" class="button">Enviar</button>
+    </div>
+  </form>
 </body>
 </html>

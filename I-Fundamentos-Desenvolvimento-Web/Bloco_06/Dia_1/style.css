@@ -20,6 +20,18 @@ body {
   width: 70%;
 }
 
+.button {
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  color: cadetblue;
+  font-weight: bolder;
+}
+
+.controls {
+  padding: 0 20px 15px 50px;
+  width: 100%;
+}
+
 .div-content input[type="text"] {
   border-color: rgb(214, 217, 220);
   border-image: initial;
@@ -47,6 +59,11 @@ body {
   margin-right: 20px;
 }
 
+.p-data {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
 .radio {
   margin-top: 15px;
 }
@@ -64,8 +81,10 @@ body {
   margin-top: 10px;
   max-height: 170px;
   max-width: 850px;
+  min-width: 248px;
+  min-height: 90px;
   padding: 7px;
-  width: 800px;
+  width: 50%;
 }
 
 .select-state {

@@ -93,22 +93,23 @@ function divCreate() {
   // Cria a <div>
   const div = document.createElement('div');
   div.id = 'div-data';
-  div.classList.add('box-style');
+  div.classList.add('container');
+  div.classList.add('block');
   // Atribui os dados à <div>
-  div.innerHTML = `<h1>Formulário de Cadastro de Currículo &#128196;</h1>
-  <h2>Dados Pessoais:</h2><hr>
+  div.innerHTML = `<h1 class="title is-4">Formulário de Cadastro de Currículo &#128196;</h1>
+  <hr><h2 class="subtitle is-4">Dados Pessoais:</h2>
   <p class="p-data"><strong>Nome:</strong> ${name}</p>
   <p class="p-data"><strong>E-mail:</strong> ${email}</p>
   <p class="p-data"><strong>CPF:</strong> ${cpf}</p>
   <p class="p-data"><strong>Endereço:</strong> ${address}</p>
   <p class="p-data"><strong>Cidade:</strong> ${city}</p>
   <p class="p-data"><strong>Estado:</strong> ${state}</p>
-  <p class="p-data"><strong>Moradia:</strong> ${vHome}</p></br>
-  <h2>Dados do seu último emprego:</h2><hr>
+  <p class="p-data"><strong>Moradia:</strong> ${vHome}</p><hr>
+  <h2 class="subtitle is-4">Dados do seu último emprego:</h2>
   <p class="p-data"><strong>Resumo do currículo:</strong> ${resume}</p>
   <p class="p-data"><strong>Cargo:</strong> ${jobPosition}</p>
   <p class="p-data"><strong>Descrição do cargo:</strong> ${description}</p>
-  <p class="p-data"><strong>Data de início:</strong> ${startDate}</p>`;
+  <p class="p-data"><strong>Data de início:</strong> ${startDate}</p><hr>`;
   // Atribui a <div> à página
   page.appendChild(div);
 }

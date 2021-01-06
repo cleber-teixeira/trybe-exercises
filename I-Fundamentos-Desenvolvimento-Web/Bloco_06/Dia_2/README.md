@@ -21,7 +21,7 @@ Existem literalmente milhares de bibliotecas **_JavaScript_** e **_CSS_** dispon
 
 - [ ] **1.** Adicione um _framework **CSS**_ de sua escolha ao formulário que você construiu na última aula e o utilize para estilizar o formulário.
 
-- Sugestões: **Bulma**, **Bootstrap**, **Semantic UI** e **Materialize**.
+- Sugestões: [**Bulma**](https://bulma.io/), [**Bootstrap**](https://getbootstrap.com/), [**Semantic UI**]() e [**Materialize**](https://semantic-ui.com/).
 
 
 - [ ] **2.** Adicione uma biblioteca **JavaScript** de date picker ao formulário que você construiu na última aula. Utilize essa biblioteca no campo "Data de início" do formulário. Você pode remover as validações de data que adicionou, uma vez que a biblioteca se encarregará de permitir somente datas válidas.

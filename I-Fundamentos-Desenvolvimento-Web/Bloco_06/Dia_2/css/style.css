@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.resume {
+  height: 100px;
+  min-height: 90px;
+}

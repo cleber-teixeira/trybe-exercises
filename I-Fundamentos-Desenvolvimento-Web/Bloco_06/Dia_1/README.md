@@ -65,7 +65,7 @@ Vamos criar um formulário de cadastro de currículo com base na especificação
       * Limite de 500 caracteres
       * Campo obrigatório
 
-  - [ ] Data de início - Texto
+  - [x] Data de início - Texto
       * Verificar o formato da data dd/mm/aaaa .
       * O dia deve ser > 0 e <= 31.
       * O mês deve ser > 0 e <= 12.
@@ -75,8 +75,8 @@ Vamos criar um formulário de cadastro de currículo com base na especificação
 
 3.1 Logo abaixo do formulário, crie um botão que:
 
-   - [ ] Chame uma função **_JavaScript_** e interrompa o fluxo automático do form utilizando o `preventDefault()`.
-   - [ ] Execute as validações que foram pedidas ao longo da montagem do formulário.
-   - [ ] Monte uma `<div>` com o consolidado dos dados que foram inseridos no formulário.
+   - [x] Chame uma função **_JavaScript_** e interrompa o fluxo automático do form utilizando o `preventDefault()`.
+   - [x] Execute as validações que foram pedidas ao longo da montagem do formulário.
+   - [x] Monte uma `<div>` com o consolidado dos dados que foram inseridos no formulário.
 
-4.1. Crie um botão **Limpar** que limpa todos os campos do formulário e a `<div>` com seu currículo também.
+4.1. Crie um botão **Limpar** que limpa todos os campos do formulário e a `<div>` com seu currículo também. :white_check_mark:

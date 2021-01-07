@@ -33,7 +33,7 @@ Na aula anterior aprendi sobre as propriedades **Flexbox** que atuam no containe
 **3.** Adicione uma propriedade **Flexbox** que modifique o tamanho padrão do container do menu quando a largura da página for maior que `768px`. Após aplicar a propriedade o `header` deverá estar similar a imagem abaixo:
 
 ![alt text](img/exercicio-3.jpeg)
-- [ ] **Header Exercicio 3**
+- [x] **Header Exercicio 3**
 
 **4.** Utilize a propriedade `align-self` no elemento correto para que o `header` da página tenha o seguinte comportamento:
 

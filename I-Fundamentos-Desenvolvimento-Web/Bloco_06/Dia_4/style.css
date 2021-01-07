@@ -12,8 +12,6 @@ body {
 .header-container {
   background-color: #5C687C;
   display: flex;
-  flex-flow: row nowrap;
-  width: auto;
 }
 
 .header-container > .header:nth-child(1) {
@@ -22,13 +20,14 @@ body {
 
 .logo-container {
   display: flex;
+  flex-basis: 268px;
   justify-content: center;
-  width: 268px;
 }
 
 .menu-container {
   display: flex;
-  width: 500px;
+  flex-basis: 500px;
+  flex-grow: 768;
 }
 
 .menu-container ul {

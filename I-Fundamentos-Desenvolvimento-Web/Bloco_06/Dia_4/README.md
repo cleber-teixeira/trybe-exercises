@@ -28,7 +28,7 @@ Na aula anterior aprendi sobre as propriedades **Flexbox** que atuam no containe
 **2.** Adicione uma propriedade **Flexbox** que modifique a **ordem** em que a logomarca e os itens do menu aparecem na tela. Após aplicar a propriedade o `header` deverá estar similar a imagem abaixo:
 
 ![alt text](img/exercicio-2.jpeg)
-- [ ] **Header Exercicio 2**
+- [x] **Header Exercicio 2**
 
 **3.** Adicione uma propriedade **Flexbox** que modifique o tamanho padrão do container do menu quando a largura da página for maior que `768px`. Após aplicar a propriedade o `header` deverá estar similar a imagem abaixo:
 

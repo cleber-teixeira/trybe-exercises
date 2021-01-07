@@ -38,7 +38,7 @@ Na aula anterior aprendi sobre as propriedades **Flexbox** que atuam no containe
 **4.** Utilize a propriedade `align-self` no elemento correto para que o `header` da página tenha o seguinte comportamento:
 
 ![alt text](img/exercicio-4.jpeg)
-- [ ] **Header Exercicio 4**
+- [x] **Header Exercicio 4**
 
 ### Parte 2
 

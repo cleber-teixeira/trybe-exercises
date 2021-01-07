@@ -1,8 +1,8 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'Ubuntu';
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
 }
 
 .header-container {
+  align-self: center;
   background-color: #5C687C;
   display: flex;
 }
@@ -25,21 +26,23 @@ body {
 }
 
 .menu-container {
+  align-self: center;
   display: flex;
   flex-basis: 500px;
-  flex-grow: 768;
+  flex-grow: 2;
+}
+
+
+.menu-container li {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+  list-style: none;
+  margin-right: 10px;
 }
 
 .menu-container ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-}
-
-.menu-container li {
-  color: white;
-  font-weight: 500;
-  font-size: 1.3rem;
-  list-style: none;
-  margin-right: 10px;
 }

@@ -18,6 +18,80 @@ Na aula anterior aprendi sobre as propriedades **Flexbox** que atuam no containe
 
 # TRYFLIX :p óstas: :film_projector:
 
+> Para os exercícios a seguir, crie um arquivo HTML e um arquivo CSS , copie o código abaixo e siga as instruções de cada enunciado.
+
+**HTML**
+
+    <!DOCTYPE html>
+    <html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TRYFLIX</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header class="header-container">
+        <nav class="menu-container">
+            <ul>
+            <li>Cadastre-se</li>
+            <li>Conecte-se</li>
+            <li>Sobre</li>
+            </ul>
+        </nav>     
+        <div class="logo-container">
+            <img
+            src="https://fontmeme.com/permalink/201215/2044acc483426f38dc2c79c3c84ab998.png"
+            alt="Website Logo"
+            />
+        </div>
+        </header>
+        
+    </body>
+    </html>
+
+**CSS**
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    }
+
+    body {
+    background-color: rgb(247, 247, 247);
+    }
+
+    .header-container {
+    background-color: #5C687C;
+    display: flex;
+    }
+
+    .logo-container {
+    display: flex;
+    justify-content: center;
+    }
+
+    .menu-container {
+    display: flex;
+    }
+
+    .menu-container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    }
+
+    .menu-container li {
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    list-style: none;
+    margin-right: 10px;
+    }
+
+
 ### Parte 1
 
 **1.** Adicione uma propriedade que defina o tamanho **Flexbox** base para o container da imagem `268px` e para o container do menu `500px`. Após aplicar as propriedades o `header` deverá estar similar a imagem abaixo:

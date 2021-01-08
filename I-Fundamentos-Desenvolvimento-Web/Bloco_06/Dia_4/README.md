@@ -155,7 +155,7 @@ Vamos continuar praticando com a continuação do `header` realizado no exercíc
 **3.** Adicione uma propriedade que faça com que seu container de filmes tenha uma base de `700px` e outra base de `16%` para as `div` do container de seu card. Deve ficar similar a imagem abaixo:
 
 ![alt text](img/exercicio-part2-3.png)
-- [ ] **Main do Exercicio 3**
+- [x] **Main do Exercicio 3**
 
 **4.** Aplique uma propridade com o valor `10` que expanda o container de filmes. Deve ficar similar a imagem abaixo:
 

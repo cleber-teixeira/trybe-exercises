@@ -165,7 +165,7 @@ Vamos continuar praticando com a continuação do `header` realizado no exercíc
 **5.** Adicione uma propriedade com o valor `1` que faça com que suas `div` do container de filmes ocupe todo o espaço em branco. Deve ficar similar a imagem abaixo:
 
 ![alt text](img/exercicio-part2-5.png)
-- [ ] **Main do Exercicio 5**
+- [x] **Main do Exercicio 5**
 
 
 

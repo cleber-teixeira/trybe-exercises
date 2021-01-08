@@ -150,7 +150,7 @@ Vamos continuar praticando com a continuação do `header` realizado no exercíc
 **2.** Aplique um alinhamento para centralizar e outro para expandir. Seu `aside` apresentar o seguinte comportamento:
 
 ![alt text](img/exercicio-part2-2.png)
-- [ ] **Main do Exercicio 2**
+- [x] **Main do Exercicio 2**
 
 **3.** Adicione uma propriedade que faça com que seu container de filmes tenha uma base de `700px` e outra base de `16%` para as `div` do container de seu card. Deve ficar similar a imagem abaixo:
 

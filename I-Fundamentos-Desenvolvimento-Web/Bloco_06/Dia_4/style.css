@@ -80,9 +80,11 @@ body {
 
 .aside-container {
   display: flex;
+  flex-basis: 350px;
   flex-direction: column;
   margin: 20px;
-  flex-basis: 350px;
+  align-self: center;
+  flex-grow: 2;
 }
 
 .aside-container h3, h4 {

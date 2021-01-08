@@ -145,7 +145,7 @@ Vamos continuar praticando com a continuação do `header` realizado no exercíc
 **1.** Aplique uma base de `350px` para seu container `aside`. Deverá ficar similar a imagem abaixo:
 
 ![alt text](img/exercicio-part2-1.png)
-- [ ] **Main do Exercicio 1**
+- [x] **Main do Exercicio 1**
 
 **2.** Aplique um alinhamento para centralizar e outro para expandir. Seu `aside` apresentar o seguinte comportamento:
 

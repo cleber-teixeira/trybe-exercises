@@ -56,7 +56,7 @@ capitalizedText();
 function showAllTags () {
     let tagsP = document.getElementsByTagName('p');
     for (let index = 0; index < tagsP.length ; index += 1) {
-        console.log(tagsP[index]);
+        console.log(tagsP[index].innerText);
     }
 }
 showAllTags();

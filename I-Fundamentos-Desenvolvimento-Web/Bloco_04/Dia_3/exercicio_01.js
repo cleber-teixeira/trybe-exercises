@@ -22,6 +22,7 @@ for (let index = 1; index <= value; index += 1) {
 }
 
 console.log('O valor informado foi: ' + value);
+console.log('');
 
 for (let index = 1; index <= value; index += 1) {
     console.log(square);

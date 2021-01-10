@@ -1,17 +1,27 @@
 body {
 
 }
-h1 {
 
+figure {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+h1 {
+  text-align: center;  
 }
+
 h2 {
 
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-figure {
-    margin: 0;
+p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 23px;
 }

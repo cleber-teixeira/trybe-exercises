@@ -9,7 +9,8 @@ figure {
   }
 
 h1 {
-  text-align: center;  
+  text-align: center;
+  font-size: 28px;
 }
 
 h2 {
@@ -23,5 +24,5 @@ img {
 p {
   font-size: 18px;
   text-align: justify;
-  line-height: 23px;
+  line-height: 24px;
 }

@@ -1,5 +1,4 @@
 body {
-    background-color: cadetblue;
     font-family: sans-serif;
 }
 
@@ -37,6 +36,8 @@ main p {
 }
 
 @media screen and (min-width: 768px) {
-    
+    body {
+        background-color: silver;
+    }
 
 }

@@ -41,22 +41,35 @@ main p {
     }
     
     main {
-        margin: 0 50px;
+        margin: 0 70px;
     }
 
     body p {
         font-size: 18px;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
         text-indent: 50px;
-        line-height: 30px;
-        margin-bottom: 30px;
+        line-height: 35px;
+        margin-bottom: 50px;
+    }
+
+    figure{
+        flex-basis: 300px;
     }
 
     h1 {
+        margin: 70px auto 50px;
         font-size: 30px;
     }
 
     h2 {
+        margin: 50px auto;
         font-size: 25px;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 780px;
     }
 }

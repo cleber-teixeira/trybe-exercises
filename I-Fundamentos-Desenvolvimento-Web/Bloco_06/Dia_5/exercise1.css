@@ -1,6 +1,7 @@
 /* Telas Pequenas */
 body {
     font-family: sans-serif;
+    max-width: 1700px;
 }
 
 figure {
@@ -83,7 +84,7 @@ main p {
     }
 
     body p {
-        font-size: 16px;
+        font-size: 18px;
         letter-spacing: 0.5px;
         line-height: 30px;
         margin: 10px auto;
@@ -113,6 +114,6 @@ main p {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        width: 780px;
+        width: 950px;
     }
 }

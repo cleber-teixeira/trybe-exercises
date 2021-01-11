@@ -35,3 +35,8 @@ main p {
     line-height: 24px;
     text-align: justify;
 }
+
+@media screen and (min-width: 768px) {
+    
+
+}

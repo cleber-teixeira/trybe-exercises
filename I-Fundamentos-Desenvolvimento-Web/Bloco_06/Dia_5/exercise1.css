@@ -39,7 +39,7 @@ main p {
 /* Telas Médias */
 @media screen and (min-width: 800px) {
     body {
-        background-color: silver;
+        background-color: rgb(230, 230, 230);
     }
 
     body p {
@@ -77,9 +77,9 @@ main p {
 }
 
 /* Telas Grandes */
-@media screen and (min-width: 1300) {
+@media screen and (min-width: 1300px) {
     body {
-        background-color: silver;
+        background-color: rgb(229, 248, 255);
     }
 
     body p {

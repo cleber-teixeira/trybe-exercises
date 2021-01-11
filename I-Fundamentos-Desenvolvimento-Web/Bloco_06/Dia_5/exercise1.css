@@ -35,9 +35,28 @@ main p {
     text-align: justify;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
     body {
         background-color: silver;
     }
+    
+    main {
+        margin: 0 50px;
+    }
 
+    body p {
+        font-size: 18px;
+        letter-spacing: 1px;
+        text-indent: 50px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
 }

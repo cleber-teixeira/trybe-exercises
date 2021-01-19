@@ -1,4 +1,4 @@
-# Bloco 08: Higher Order Functions do JavaScript ES6
+# Bloco 08: Higher Order Functions do JavaScript ES6 :page_with_curl:
 
 ## Dia 01: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 

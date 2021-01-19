@@ -1,6 +1,6 @@
 # Bloco 08: Higher Order Functions do JavaScript ES6 :page_with_curl:
 
-## Dia 01: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+## Dia 01: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort :white_check_mark:
 
 ### O que aprendi neste dia? :books:
 
@@ -21,18 +21,18 @@ Utilizar a função `Array.sort` para ordenar _arrays_ de acordo com algum _crit
 
 >Estes exercícios praticam os conceitos de **Higher Order Functions** associados a outros já vistos, como _arrow functions_, _template literals_, objetos e temas dos fundamentos. Essa mistura de conceitos é muito importante para seu aprendizado, então use tudo o que sabe para resolver os exercícios!
 
-- [ ] **1.** Encontre o nome da **primeira** pessoa autora do livro nascida no ano de **1947**.
+- [x] **1.** Encontre o nome da **primeira** pessoa autora do livro nascida no ano de **1947**.
 **_Dica:_** use a função `find`.
 
-- [ ] **2.** Retorne o nome do livro de **menor** nome.
+- [x] **2.** Retorne o nome do livro de **menor** nome.
 **_Dica:_** use a função `forEach`.
 
-- [ ] **3.** Encontre o primeiro livro cujo nome possui **26** caracteres.
+- [x] **3.** Encontre o primeiro livro cujo nome possui **26** caracteres.
 
-- [ ] **4.** Ordene os livros por **data** de lançamento em ordem **decrescente**.
+- [x] **4.** Ordene os livros por **data** de lançamento em ordem **decrescente**.
 
-- [ ] **5.** Faça uma função que retorne `true`, se **todas** as pessoas autoras nasceram no século **XX**, ou `false`, caso contrário.
+- [x] **5.** Faça uma função que retorne `true`, se **todas** as pessoas autoras nasceram no século **XX**, ou `false`, caso contrário.
 
-- [ ] **6.** Faça uma função que retorne `true`, se algum livro foi lançado na década de **80**, e `false`, caso contrário.
+- [x] **6.** Faça uma função que retorne `true`, se algum livro foi lançado na década de **80**, e `false`, caso contrário.
 
-- [ ] **7.** Faça uma função que retorne `true`, caso **nenhum** author tenha nascido no **mesmo** ano, e `false`, caso contrário.
+- [x] **7.** Faça uma função que retorne `true`, caso **nenhum** author tenha nascido no **mesmo** ano, e `false`, caso contrário.

@@ -18,8 +18,6 @@
 
 ### Exercícios - Dia 01 :memo:
 
-
-
 - [ ] **1.** Dado o código, qual a ordem de finalização de execução das linhas comentadas?
 
 - [ ] **2.** Dado o código com algumas mudanças, qual a ordem de finalização de execução das linhas comentadas?

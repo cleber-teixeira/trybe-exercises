@@ -25,7 +25,6 @@ Neste dia aprendi como **_testar códigos assíncronos_**, como reaproveitar con
 - [ ] **3.** Reescreva o teste do exercício anterior, desta vez utilizando a sintaxe de `async`/`await`.
 **Dica:** Utilize o `try`/`catch` para o caso de **erro**.
 
-
 - [ ] **4.** O código a ser trabalhado busca no **_GitHub_** de um usuário, de acordo com a `URL`, seus repositórios, e retorna uma lista como resultado. Dada a `URL 'https://api.github.com/orgs/tryber/repos'`, faça um teste que verifique que os repositórios `'sd-01-week4-5-project-todo-list'` e `'sd-01-week4-5-project-meme-generator'` se encontram nessa lista.
 
 - [ ] **5.** Para este exercício, tente adivinhar a saída dos `console.log` dos testes a ser trabalhados sem executá-los, e veja se compreendeu bem o funcionamento do `beforeEach` e do `afterEach`.

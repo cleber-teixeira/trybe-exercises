@@ -45,49 +45,49 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-5: _[Projeto - Arte com Pixels](https://cleber-teixeira.github.io/projetos/pixels-art/)_ :art:
 - [x] 5-6: _[Projeto - Lista de tarefas](https://cleber-teixeira.github.io/projetos/todo-list/)_ :memo:
 - [ ] 5-7: _Projeto - Meme Generator (Bônus)_
-- [ ] 5-7: _Projeto - Adivinhe a Cor (Bônus)_
+- [x] 5-7: _[Projeto - Adivinhe a Cor (Bônus)](https://cleber-teixeira.github.io/projetos/color-guess/)_ :beginner:
 - [ ] 5-7: _Projeto - Carta Misteriosa (Bônus)_
 
 ##### Bloco 6: HTML & CSS avanÃ§ado
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - PÃ¡gina inicial do Facebook]()_
+- [x] 6-3: _CSS Flexbox - Part 1_
+- [x] 6-4: _CSS Flexbox - Part 2_
+- [x] 6-5: _CSS Responsivo - Mobile First_
+- [x] 6-6: _[Projeto - Página inicial do Facebook]()_
 
 ##### Bloco 7: JavaScript ES6 & Testes UnitÃ¡rios
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _Testes unitÃ¡rios em JavaScript_
-- [ ] 7-4: _[Projeto - JavaScript Testes UnitÃ¡rios]()_
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [x] 7-2: _JavaScript ES6 - Objects_
+- [x] 7-3: _Testes unitários em JavaScript_
+- [x] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
 ##### Bloco 8: JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions]()_
+- [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [x] 8-5: _[Projeto - Zoo functions]()_
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
-- [ ] 9-1: _JavaScript AssÃ­ncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-2: _JavaScript Promises_
+- [x] 9-3: _[Projeto - Carrinho de Compras](https://cleber-teixeira.github.io/projetos/shopping-cart/)_ :shopping_cart:
 
 ##### Bloco 10: Jest
 
-- [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes AssÃ­ncronos_
-- [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest AssÃ­ncrono e Mocking]()_
+- [x] 10-1: _Primeiros passos no Jest_
+- [x] 10-2: _Jest - Testes Assíncronos_
+- [x] 10-3: _Jest - Simulando comportamentos_
+- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 11: IntroduÃ§Ã£o - React
+##### Bloco 11: Introdução - React
 
 - [ ] 11-1: _'Hello, world!' no React!_
 - [ ] 11-2: _Componentes React_
@@ -106,9 +106,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 13-3: _React Router_
 - [ ] 13-4: _[Projeto - Movie Cards Library CRUD]()_
 
-##### Bloco 14: Metodologias Ãgeis
+##### Bloco 14: Metodologias Ágeis
 
-- [ ] 14-1: _Metodologias Ãgeis_
+- [ ] 14-1: _Metodologias Ágeis_
 - [ ] 14-2: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 15: Testes em React
@@ -121,9 +121,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 16-1: _IntroduÃ§Ã£o ao Redux_
 - [ ] 16-2: _React com Redux - Parte 1_
-- [ ] 16-3: _React com Redux - PrÃ¡tica_
+- [ ] 16-3: _React com Redux - Prática_
 - [ ] 16-4: _React com Redux - Parte 2_
-- [ ] 16-5: _Testes sÃ­ncronos com React-Redux_
+- [ ] 16-5: _Testes síncronos com React-Redux_
 - [ ] 16-6: _[Projeto - Tabela com filtros de dados]()_
 
 ##### Bloco 17: Projeto React
@@ -147,7 +147,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 20-1: _Banco de dados SQL_
 - [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma especÃ­fica_
+- [ ] 20-3: _Filtrando dados de forma específica_
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 
@@ -161,13 +161,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 22: Bancos de dados relacionais
 
 - [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _NormalizaÃ§Ã£o, Formas Normais e Dumps_
+- [ ] 22-2: _Normalização, Formas Normais e Dumps_
 - [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [ ] 22-3: _[Projeto - One For All]()_
 
 ##### Bloco 23: IntroduÃ§Ã£o - NoSQL
 
-- [ ] 23-1: _MongoDB - IntroduÃ§Ã£o_
+- [ ] 23-1: _MongoDB - Introdução_
 - [ ] 23-2: _Filter Operators_
 - [ ] 23-3: _[Projeto - Data Flights]()_
 
@@ -186,8 +186,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 26: Intro - NodeJS
 
-- [ ] 26-1: _NodeJS - IntroduÃ§Ã£o_
-- [ ] 26-2: _NodeJS - Fluxo AssÃ­ncrono_
+- [ ] 26-1: _NodeJS - Introdução_
+- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
 - [ ] 26-3: _NodeJS - Arquitetura_
 - [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
 
@@ -221,7 +221,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 32: Arquitetura de Software
 
-- [ ] 32-1: _Arquitetura - PrincÃ­pios SOLID_
+- [ ] 32-1: _Arquitetura - Princípios SOLID_
 - [ ] 32-2: _ORM - Interface da aplicaÃ§Ã£o com o banco de dados_
 - [ ] 32-3: _Arquitetura de Software - DDD_
 - [ ] 32-4: _Boas prÃ¡ticas na escrita de testes_
@@ -250,8 +250,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 35-1: _Aprendendo Python_
 - [ ] 35-2: _Testes e ExceÃ§Ãµes_
-- [ ] 35-3: _Entrada e SaÃ­da de dados_
-- [ ] 36-4: _Entrada e SaÃ­da de dados_
+- [ ] 35-3: _Entrada e Saída de dados_
+- [ ] 36-4: _Entrada e Saída de dados_
 - [ ] 35-5: _[Projeto - Tech news]()_
 
 # [...]

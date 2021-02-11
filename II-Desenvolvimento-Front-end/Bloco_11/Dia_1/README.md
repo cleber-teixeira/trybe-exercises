@@ -1,6 +1,6 @@
-# Bloco 11: Introdução ao React :atom_symbol:
+# Bloco 11: Introdução à React :atom_symbol:
 
-## Dia 01: Introdução - Front-end :white_check_mark:
+## Dia 01: Introdução - Front-end & React ('Hello, world!') :white_check_mark:
 
 ### O que aprendi neste dia? :books:
 

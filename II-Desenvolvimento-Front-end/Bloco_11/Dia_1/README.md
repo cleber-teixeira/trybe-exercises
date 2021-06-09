@@ -24,12 +24,12 @@ E tomei ciência do que diferencia **React** de **JavaScript** e alguns conhecim
 
 ### Exercícios - Dia 01 :memo:
 
-- [ ] **1.** Crie um novo projeto utilizando `npx create-react-app nome-app` e acesse a pasta **_nome-app_**.
+- [x] **1.** Crie um novo projeto utilizando `npx create-react-app nome-app` e acesse a pasta **_nome-app_**.
 
 **_Obs.:_** ⚠️ Substitua o **nome-app** pelo que você desejar para seu app. ⚠️
 
 
-- [ ] **2.** Crie uma lista de tarefas simples seguindo os passos abaixo:
+- [x] **2.** Crie uma lista de tarefas simples seguindo os passos abaixo:
 
 - insira a função a seguir acima do seu **App**:
 

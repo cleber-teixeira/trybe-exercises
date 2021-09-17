@@ -1,5 +1,19 @@
-#33.1 - Aprendendo Python
---------------------------
+# Bloco 33: Introdução à Python
+
+## Dia 01: Aprendendo Python :white_check_mark:
+
+### O que aprendi neste dia? :books:
+
+Conheci a linguagem de programação **Python**, onde é utilizada e por que cada vez mais tem se tornado relevante no mundo de programação. E neste dia escrevi os primeiros programas.
+
+### Do que eu sou capaz: :rocket:
+
+- Utilizar o terminal interativo do **Python**;
+- Entender e utilizar estruturas condicionais (se, senão se, senão) e de repetição (enquanto, para);
+- Criar funções para reutilização de código;
+- Escrever seus próprios módulos e como importá-los em outros códigos.
+
+### Exercícios - Dia 01 :memo:
 
 Vamos colocar tudo o que vimos até agora em prática. Em todos os exercícios, crie funções para solucionar os problemas. Tenho certeza que vocês já viram isso. 😆
 

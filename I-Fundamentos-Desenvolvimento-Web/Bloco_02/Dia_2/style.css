@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(137, 238, 246);
+}
+
+h1 {
+  color: purple;
+  font-size: large;
+}
+
+p {
+  color: green;
+  font-weight: bold;
+}
+
+h2 {
+  color: red;
+  border: 3px solid black;
+  width: 150px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Forms, Flexbox e Responsivo</title>
+</head>
+<body>
+
+  <header class="box-style header-title">
+    <h1>FORMULÁRIO DE CADASTRO DE CURRÍCULO &#128188;</h1>
+  </header>
+
+  <form class="box-style" action="">
+
+    <!-- DADOS PESSOAIS
+      Exercício 1
+      - Crie um <fieldset> para os seguintes dados pessoais:
+    -->
+    <fieldset class="fieldset-content">
+      <legend>DADOS PESSOAIS</legend>
+      
+      <!-- NOME
+        - Nome - Texto
+        - Limite de 40 caracteres
+        - Campo obrigatório
+      -->
+      <div class="div-content">
+        <label for="">NOME:</label>
+        <input id="input-name" class="input-name" type="text" name="nome" placeholder="digite aqui seu nome" maxlength="40" required>
+      </div>
+      
+      <!-- EMAIL
+        - Email - Texto
+        - Limite de 50 caracteres
+        - Campo obrigatório
+      -->
+      <div class="div-content">
+        <label for="">E-MAIL:</label>
+        <input id="input-email" class="input-email" type="text" name="e-mail" placeholder="digite aqui seu e-mail" maxlength="50" required>
+      </div>
+
+      <!-- CPF
+        - CPF - Texto
+        - Limite de 11 caracteres
+        - Campo obrigatório
+      -->
+      <div class="div-content">
+        <label for="">CPF:</label>
+        <input id="input-cpf" class="input-cpf" type="text" name="cpf" placeholder="digite aqui seu CPF (apenas números)" maxlength="11" required>
+      </div>
+
+      <!-- ENDEREÇO
+        - Endereço - Texto
+        - Limite de 200 caracteres
+        - Campo obrigatório
+      -->
+      <div class="div-content">
+        <label for="">ENDEREÇO:</label>
+        <input id="input-address" class="input-address" type="text" name="endereco" placeholder="digite aqui seu endereço completo" maxlength="200" required>
+      </div>
+
+      <!-- CIDADE
+        - Cidade - Texto
+        - Limite de 28 caracteres
+        - Campo obrigatório
+      -->
+      <div class="div-content">
+        <label for="">CIDADE:</label>
+        <input id="input-city" class="input-city" type="text" name="cidade" placeholder="digite aqui sua cidade" maxlength="28" required>
+      </div>
+      
+      <!-- ESTADO
+        - Estado - ComboBox
+        - Todos os estados do Brasil
+        - Utilize estruturas de repetição via JavaScript para gerar os <option>
+        - Campo Obrigatório
+      -->
+      <div class="div-content">
+        <label for="">ESTADO:</label>
+        <select id="select-state" class="select-state" name="estado" required></select>
+      </div></br>
+
+      <!-- TIPO DE MORADIA
+        - Tipo - Radio Button
+        - Casa, Apartamento
+        - Campo obrigatório
+      -->
+      <div class="div-content">
+        <p>TIPO DE MORADIA:</p>
+        <input id="home" class="radio" type="radio" name="tipo" value="casa" checked>
+        <label class="home" for="home">Casa</label> 
+        <input id="apartment" class="radio" type="radio" name="tipo" value="apartamento">
+        <label class="apartment" for="apartment">Apartamento</label>
+      </div>
+    </fieldset>
+
+    <!-- DADOS DO SEU ÚLTIMO EMPREGO
+      Exercício 02
+      - Crie outro <fieldset> para dados do seu último emprego
+    -->
+    <fieldset class="fieldset-content">
+      <legend>DADOS DO SEU ÚLTIMO EMPREGO</legend>
+
+      <!-- RESUMO DO CURRÍCULO
+        - Resumo do currículo - TextArea
+        - Limite de 1000 caracteres
+        - Campo obrigatório
+      -->
+      <div class="div-content">
+        <label for="">RESUMO DO CURRÍCULO:</label></br>
+        <textarea name="resumo-curriculo" id="resume" class="resume" placeholder="digite aqui o resumo do seu curriculo" maxlength="1000" cols="30" rows="10" required></textarea>
+      </div>
+
+      <!-- CARGO
+        - Cargo - Texto
+        - Limite de 40 caracteres
+        - Campo obrigatório
+      -->
+      <div class="div-content">
+        <label for="">CARGO:</label>
+        <input type="text" name="cargo" id="job-position" class="job-position" placeholder="digite aqui seu cargo" maxlength="40" required>
+      </div>
+
+      <!-- DESCRIÇÃO DO CARGO
+        - Descrição do cargo - Texto
+        - Limite de 500 caracteres
+        - Campo obrigatório
+      -->
+      <div class="div-content">
+        <label for="">DESCRIÇÃO DO CARGO:</label>
+        <input type="text" name="descricao-cargo" id="description" class="description" placeholder="digite aqui a descrição do seu cargo" maxlength="500" required>
+      </div>
+
+      <!-- DATA DE INÍCIO
+        - Data de início - Texto
+        - Verificar o formato da data dd/mm/aaaa.
+        - O dia deve ser > 0 e <= 31.
+        - O mês deve ser > 0 e <= 12.
+        - O ano não pode ser negativo.
+        - Caso alguma das condições for inválida no momento do envio do formulário, exibir mensagem de erro contextualizada.
+        - Campo obrigatório
+      -->
+      <div class="div-content">
+        <label for="">DATA DE INÍCIO:</label>
+        <input type="text" name="data" id="start-date" class="start-date" placeholder="dd/mm/aaaa" maxlength="10" required>
+      </div>
+    </fieldset>
+    
+    <div class="controls">
+      <!-- BOTÃO ENVIAR
+      Exercício 03
+      - Logo abaixo do formulário, crie um botão que:
+      - Chame uma função JavaScript e interrompa o fluxo automático do form utilizando o preventDefault() .
+      - Execute as validações que foram pedidas ao longo da montagem do formulário.
+      - Monte uma <div> com o consolidado dos dados que foram inseridos no formulário.
+    -->
+      <button type="submit" id="submit-btn" class="button">Enviar</button>
+      <!-- BOTÃO LIMPAR
+        Exercício 04
+        - Crie um botão Limpar que limpa todos os campos do formulário e a <div> com seu currículo também.
+      -->
+      <button type="reset" class="button">Limpar</button>
+    </div>
+  </form>
+</body>
+</html>

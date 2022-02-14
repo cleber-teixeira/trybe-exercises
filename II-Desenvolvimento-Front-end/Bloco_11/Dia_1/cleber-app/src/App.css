@@ -1,0 +1,16 @@
+.subtitle {
+  color: rgb(19, 158, 82);
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.title {
+  color: cadetblue;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+ul {
+  color: gray;
+  line-height: 30px;
+}

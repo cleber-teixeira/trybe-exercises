@@ -1,0 +1,172 @@
+a {
+  color: darkslategray;
+}
+
+aside {
+  float: right;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  top: 80px;
+  width: 250px;
+}
+
+.aside-img {
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px gray;
+  width: 250px;
+}
+
+body {
+  background-color: rgba(139, 227, 237, 0.3);
+  color: darkslategray;
+  font-family: sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.contrast {
+  font-weight: bold;
+}
+
+.fatos {
+  margin-top: 100px;
+}
+
+footer {
+  background-color: rgba(47, 79, 79, 0.9);
+  bottom: 0;
+  color: rgba(185, 242, 188, 0.8);
+  display: inline-block;
+  font-size: 14px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  position: fixed;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgb(5, 43, 92);
+  width: 100%;
+}
+
+.gerais {
+  height: 450px;
+}
+
+.gerais .t-destaque {
+  background-color: white;
+}
+
+.gerais table {
+  border: 1px solid rgba(47, 79, 79, 0.5);
+  margin: 0 auto 40px;
+  width: 300px;
+}
+
+.gerais table td {
+  padding-left: 20px;
+}
+
+.gerais table tr th {
+  background-color: rgba(47, 79, 79, 0.5);
+  border: 1px solid rgba(47, 79, 79, 0.5);
+  color: white;
+  line-height: 30px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+header {
+  background-color: rgba(47, 79, 79, 0.9);
+  text-shadow: 1px 1px 5px rgb(5, 43, 92);
+  color: rgba(185, 242, 188, 0.8);
+  display: inline-block;
+  line-height: 0;
+  padding-bottom: 1px;
+  padding-top: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.image {
+  border: solid 5px white;
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 15px;
+  float: left;
+  margin: 20px;
+  width: 500px;
+}
+
+nav {
+  background-color: rgba(33, 116, 168, 0.9);
+  box-shadow: 0 5px 15px rgba(47, 79, 79, 0.7);
+  line-height: 0;
+  position: fixed;
+  text-align: center;
+  top: 40px;
+  width: 100%;
+}
+
+nav a {
+  color: antiquewhite;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+  width: 150px;
+}
+
+p {
+  line-height: 25px;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.referencias {
+  width: 1000px;
+  text-align: center;
+  padding-left: 0;
+}
+
+.referencias li {
+  display: inline;
+  margin: 0 20px;
+  width: 300px;
+}
+
+.referencias ul {
+  padding-left: 0;
+}
+
+section {
+  border: rgba(0, 0, 0, 0.1) 7px double;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  margin-left: 25px;
+  width: 1000px;
+}
+
+section h3 {
+  text-align: center;
+}
+
+section p {
+  margin: 0 20px 20px;
+}
+
+.visao {
+  height: 300px;
+}
+
+.visao .image {
+  height: 250px;
+  width: 250px;
+}

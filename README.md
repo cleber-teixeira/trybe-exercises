@@ -79,7 +79,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 9-3: _Jest - Testes Assíncronos_
 - [x] 9-4: _[Projeto - Carrinho de Compras](https://cleber-teixeira.github.io/projetos/shopping-cart/)_ :shopping_cart:
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :white_check_mark:
 
 ##### Bloco 10: Introdução à React
 
@@ -137,7 +137,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 18-1: _Projeto - App de Receitas_
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end :white_check_mark:
 
 ##### Bloco 19: Introdução à SQL
 
@@ -235,7 +235,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 31-1: _Projeto - App de Delivery_
 
-## Ciência da Computação :hourglass_flowing_sand:
+## Ciência da Computação :white_check_mark:
 
 ##### Bloco 32: Introdução à Python
 

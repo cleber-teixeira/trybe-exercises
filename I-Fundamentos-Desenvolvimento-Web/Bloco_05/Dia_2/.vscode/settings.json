@@ -1,0 +1,6 @@
+{
+    "workbench.enableExperiments": false,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false
+}

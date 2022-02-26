@@ -21,17 +21,17 @@ Em cada exercício, será pedido para que encontre ou produza alguma informaçã
 - [x] **1.** Crie um `array` com `strings` no formato `NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA`.
 **_Dica:_** use a função `map`.
 
-- [x] **2.** Construa um `array` de _objetos_ a partir do `array` de **_livros_**. Cada _objeto_ deve conter uma propriedade `author`, com o **_nome_** da pessoa autora do livro, e uma propriedade `age` com a **_idade_** dessa pessoa quando o livro foi _lançado_. O `array` deve ser _ordenado_ por **_idade_**, ou seja, da pessoa mais jovem para a mais velha considerando suas idades quando o livro foi _lançado_.
+- [ ] **2.** Construa um `array` de _objetos_ a partir do `array` de **_livros_**. Cada _objeto_ deve conter uma propriedade `author`, com o **_nome_** da pessoa autora do livro, e uma propriedade `age` com a **_idade_** dessa pessoa quando o livro foi _lançado_. O `array` deve ser _ordenado_ por **_idade_**, ou seja, da pessoa mais jovem para a mais velha considerando suas idades quando o livro foi _lançado_.
 **_Dica:_** use a função `map`, `sort`.
 
-- [x] **3.** Crie um `array` com todos os _objetos_ que possuem gênero **_ficção científica_** ou **_fantasia_**.
+- [ ] **3.** Crie um `array` com todos os _objetos_ que possuem gênero **_ficção científica_** ou **_fantasia_**.
 **_Dica:_** use a função `filter`.
 
-- [x] **4.** Crie um `array` _ordenado_ pelos livros com mais de **60 anos** de publicação e _ordene-o_ pelo livro _mais velho_.
+- [ ] **4.** Crie um `array` _ordenado_ pelos livros com mais de **60 anos** de publicação e _ordene-o_ pelo livro _mais velho_.
 **_Dica:_** use a função `filter` e `sort`.
 
-- [x] **5.** Crie um `array` em _ordem alfabética_ apenas com os nomes de todas as pessoas autoras de **_ficção científica_** ou **_fantasia_**.
+- [ ] **5.** Crie um `array` em _ordem alfabética_ apenas com os nomes de todas as pessoas autoras de **_ficção científica_** ou **_fantasia_**.
 
-- [x] **6.** Crie um `array` com o **nome** de todos os livros com mais de **60 anos** de publicação.
+- [ ] **6.** Crie um `array` com o **nome** de todos os livros com mais de **60 anos** de publicação.
 
-- [x] **7.** Encontre o **nome** do livro escrito pela pessoa cujo nome registrado começa com **_três iniciais_** (_terminam com um ponto_).
+- [ ] **7.** Encontre o **nome** do livro escrito pela pessoa cujo nome registrado começa com **_três iniciais_** (_terminam com um ponto_).

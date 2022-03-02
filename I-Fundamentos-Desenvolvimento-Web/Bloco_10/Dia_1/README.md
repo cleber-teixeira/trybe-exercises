@@ -14,7 +14,7 @@ Aprendi o que são e para que servem testes unitários. Já sei usar o **módulo
 
 
 >Parte I (fonte: Bloco 07 / Dia 03)
-- [ ] **1.** Refaça os exercícios **1** a **5** do conteúdo de **_Testes unitários em JavaScript_**, dessa vez utilizando **Jest**.
+- [x] **1.** Refaça os exercícios **1** a **5** do conteúdo de **_Testes unitários em JavaScript_**, dessa vez utilizando **Jest**.
 
 >Parte II (Projeto _Playground Functions_ do Bloco 04)
 - [ ] **1.** Para as funções `encode` e `decode` crie os seguintes testes:
